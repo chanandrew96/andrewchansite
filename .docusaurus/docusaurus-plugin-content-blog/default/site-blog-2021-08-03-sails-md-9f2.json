@@ -1,0 +1,32 @@
+{
+  "permalink": "/blog/sailsJs",
+  "source": "@site/blog/2021-08-03-sails.md",
+  "title": "Sails Js",
+  "description": "經npm安裝sails",
+  "date": "2021-08-03T00:00:00.000Z",
+  "formattedDate": "August 3, 2021",
+  "tags": [
+    {
+      "label": "js",
+      "permalink": "/blog/tags/js"
+    },
+    {
+      "label": "sailsJs",
+      "permalink": "/blog/tags/sails-js"
+    },
+    {
+      "label": "SocketIO",
+      "permalink": "/blog/tags/socket-io"
+    }
+  ],
+  "readingTime": 0.15,
+  "truncated": false,
+  "prevItem": {
+    "title": "Online Deployment",
+    "permalink": "/blog/online-deployment"
+  },
+  "nextItem": {
+    "title": "Java & Bean",
+    "permalink": "/blog/java-bean"
+  }
+}

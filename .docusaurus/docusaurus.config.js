@@ -1,16 +1,27 @@
 export default {
-  "title": "My Site",
+  "title": "Andrew Chan",
   "tagline": "Dinosaurs are cool",
   "url": "https://your-docusaurus-test-site.com",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "organizationName": "chanandrew96",
+  "projectName": "andrewchansite",
   "themeConfig": {
+    "colorMode": {
+      "defaultMode": "dark",
+      "disableSwitch": false,
+      "respectPrefersColorScheme": false,
+      "switchConfig": {
+        "darkIcon": "🌜",
+        "darkIconStyle": {},
+        "lightIcon": "🌞",
+        "lightIconStyle": {}
+      }
+    },
     "navbar": {
-      "title": "My Site",
+      "title": "Andrew Chan Site",
       "logo": {
         "alt": "My Site Logo",
         "src": "img/logo.svg"
@@ -18,9 +29,9 @@ export default {
       "items": [
         {
           "type": "doc",
-          "docId": "intro",
+          "docId": "docsMenu",
           "position": "left",
-          "label": "Tutorial",
+          "label": "Documents",
           "activeSidebarClassName": "navbar__link--active"
         },
         {
@@ -29,7 +40,7 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
+          "href": "https://github.com/chanandrew96",
           "label": "GitHub",
           "position": "right"
         }
@@ -43,8 +54,8 @@ export default {
           "title": "Docs",
           "items": [
             {
-              "label": "Tutorial",
-              "to": "/docs/intro"
+              "label": "Documents",
+              "to": "/docs/docsMenu"
             }
           ]
         },
@@ -53,7 +64,7 @@ export default {
           "items": [
             {
               "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
+              "href": "https://stackoverflow.com/users/5629361/c-andrew"
             },
             {
               "label": "Discord",
@@ -74,7 +85,7 @@ export default {
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "href": "https://github.com/chanandrew96"
             }
           ]
         }
@@ -275,17 +286,6 @@ export default {
       },
       "additionalLanguages": []
     },
-    "colorMode": {
-      "defaultMode": "light",
-      "disableSwitch": false,
-      "respectPrefersColorScheme": false,
-      "switchConfig": {
-        "darkIcon": "🌜",
-        "darkIconStyle": {},
-        "lightIcon": "🌞",
-        "lightIconStyle": {}
-      }
-    },
     "docs": {
       "versionPersistence": "localStorage"
     },
@@ -297,12 +297,10 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "C:\\Users\\user\\Desktop\\Andrew\\Project\\docusaurus\\andrewchansite\\sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/"
+          "sidebarPath": "C:\\Users\\user\\Desktop\\Andrew\\Project\\docusaurus\\andrewchansite\\sidebars.js"
         },
         "blog": {
-          "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/"
+          "showReadingTime": true
         },
         "theme": {
           "customCss": "C:\\Users\\user\\Desktop\\Andrew\\Project\\docusaurus\\andrewchansite\\src\\css\\custom.css"

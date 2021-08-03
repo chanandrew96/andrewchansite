@@ -1,0 +1,28 @@
+{
+  "permalink": "/blog/java-bean",
+  "source": "@site/blog/2021-08-03-java-bean.md",
+  "title": "Java & Bean",
+  "description": "什么是JavaBean、bean? 什么是POJO、PO、DTO、VO、BO ? 什么是EJB、EntityBean？",
+  "date": "2021-08-03T00:00:00.000Z",
+  "formattedDate": "August 3, 2021",
+  "tags": [
+    {
+      "label": "Java",
+      "permalink": "/blog/tags/java"
+    },
+    {
+      "label": "Bean",
+      "permalink": "/blog/tags/bean"
+    }
+  ],
+  "readingTime": 0.02,
+  "truncated": false,
+  "prevItem": {
+    "title": "Sails Js",
+    "permalink": "/blog/sailsJs"
+  },
+  "nextItem": {
+    "title": "NodeJs related",
+    "permalink": "/blog/NodeJs"
+  }
+}

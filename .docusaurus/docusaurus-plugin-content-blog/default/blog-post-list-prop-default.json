@@ -2,16 +2,24 @@
   "title": "Recent posts",
   "items": [
     {
-      "title": "Welcome",
-      "permalink": "/blog/welcome"
+      "title": "Docusaurus",
+      "permalink": "/blog/Docusaurus"
     },
     {
-      "title": "Hello",
-      "permalink": "/blog/hello-world"
+      "title": "Online Deployment",
+      "permalink": "/blog/online-deployment"
     },
     {
-      "title": "Hola",
-      "permalink": "/blog/hola"
+      "title": "Sails Js",
+      "permalink": "/blog/sailsJs"
+    },
+    {
+      "title": "Java & Bean",
+      "permalink": "/blog/java-bean"
+    },
+    {
+      "title": "NodeJs related",
+      "permalink": "/blog/NodeJs"
     }
   ]
 }

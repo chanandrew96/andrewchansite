@@ -1,0 +1,32 @@
+{
+  "permalink": "/blog/Docusaurus",
+  "source": "@site/blog/2021-08-03-docusaurus.md",
+  "title": "Docusaurus",
+  "description": "建立專案",
+  "date": "2021-08-03T00:00:00.000Z",
+  "formattedDate": "August 3, 2021",
+  "tags": [
+    {
+      "label": "js",
+      "permalink": "/blog/tags/js"
+    },
+    {
+      "label": "Docusaurus",
+      "permalink": "/blog/tags/docusaurus"
+    },
+    {
+      "label": "JavaScript",
+      "permalink": "/blog/tags/java-script"
+    },
+    {
+      "label": "i18n",
+      "permalink": "/blog/tags/i-18-n"
+    }
+  ],
+  "readingTime": 2.785,
+  "truncated": false,
+  "nextItem": {
+    "title": "Online Deployment",
+    "permalink": "/blog/online-deployment"
+  }
+}

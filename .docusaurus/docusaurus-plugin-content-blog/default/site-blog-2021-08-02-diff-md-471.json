@@ -1,0 +1,56 @@
+{
+  "permalink": "/blog/diff",
+  "source": "@site/blog/2021-08-02-diff.md",
+  "title": "Basic theory",
+  "description": "序",
+  "date": "2021-08-02T00:00:00.000Z",
+  "formattedDate": "August 2, 2021",
+  "tags": [
+    {
+      "label": "js",
+      "permalink": "/blog/tags/js"
+    },
+    {
+      "label": "import",
+      "permalink": "/blog/tags/import"
+    },
+    {
+      "label": "require",
+      "permalink": "/blog/tags/require"
+    },
+    {
+      "label": "basic",
+      "permalink": "/blog/tags/basic"
+    },
+    {
+      "label": "theory",
+      "permalink": "/blog/tags/theory"
+    },
+    {
+      "label": "parm",
+      "permalink": "/blog/tags/parm"
+    },
+    {
+      "label": "var",
+      "permalink": "/blog/tags/var"
+    },
+    {
+      "label": "function",
+      "permalink": "/blog/tags/function"
+    },
+    {
+      "label": "method",
+      "permalink": "/blog/tags/method"
+    }
+  ],
+  "readingTime": 2.445,
+  "truncated": false,
+  "prevItem": {
+    "title": "How to get GitHub Account Image",
+    "permalink": "/blog/GitHub"
+  },
+  "nextItem": {
+    "title": "Start Building Blazor application",
+    "permalink": "/blog/build"
+  }
+}

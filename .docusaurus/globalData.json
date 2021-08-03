@@ -6,54 +6,97 @@
         {
           "name": "current",
           "label": "Next",
+          "isLast": false,
+          "path": "/docs/next",
+          "mainDocId": "docsMenu",
+          "docs": [
+            {
+              "id": "about-me/projects",
+              "path": "/docs/next/about-me/projects",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "about-me/who",
+              "path": "/docs/next/about-me/who",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "docsMenu",
+              "path": "/docs/next/docsMenu",
+              "sidebar": "tutorialSidebar"
+            }
+          ]
+        },
+        {
+          "name": "0.0.2",
+          "label": "0.0.2",
           "isLast": true,
           "path": "/docs",
+          "mainDocId": "docsMenu",
+          "docs": [
+            {
+              "id": "about-me/who",
+              "path": "/docs/about-me/who",
+              "sidebar": "version-0.0.2/tutorialSidebar"
+            },
+            {
+              "id": "docsMenu",
+              "path": "/docs/docsMenu",
+              "sidebar": "version-0.0.2/tutorialSidebar"
+            }
+          ]
+        },
+        {
+          "name": "0.0.1",
+          "label": "0.0.1",
+          "isLast": false,
+          "path": "/docs/0.0.1",
           "mainDocId": "intro",
           "docs": [
             {
               "id": "intro",
-              "path": "/docs/intro",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/0.0.1/intro",
+              "sidebar": "version-0.0.1/tutorialSidebar"
             },
             {
               "id": "tutorial-basics/congratulations",
-              "path": "/docs/tutorial-basics/congratulations",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/0.0.1/tutorial-basics/congratulations",
+              "sidebar": "version-0.0.1/tutorialSidebar"
             },
             {
               "id": "tutorial-basics/create-a-blog-post",
-              "path": "/docs/tutorial-basics/create-a-blog-post",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/0.0.1/tutorial-basics/create-a-blog-post",
+              "sidebar": "version-0.0.1/tutorialSidebar"
             },
             {
               "id": "tutorial-basics/create-a-document",
-              "path": "/docs/tutorial-basics/create-a-document",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/0.0.1/tutorial-basics/create-a-document",
+              "sidebar": "version-0.0.1/tutorialSidebar"
             },
             {
               "id": "tutorial-basics/create-a-page",
-              "path": "/docs/tutorial-basics/create-a-page",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/0.0.1/tutorial-basics/create-a-page",
+              "sidebar": "version-0.0.1/tutorialSidebar"
             },
             {
               "id": "tutorial-basics/deploy-your-site",
-              "path": "/docs/tutorial-basics/deploy-your-site",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/0.0.1/tutorial-basics/deploy-your-site",
+              "sidebar": "version-0.0.1/tutorialSidebar"
             },
             {
               "id": "tutorial-basics/markdown-features",
-              "path": "/docs/tutorial-basics/markdown-features",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/0.0.1/tutorial-basics/markdown-features",
+              "sidebar": "version-0.0.1/tutorialSidebar"
             },
             {
               "id": "tutorial-extras/manage-docs-versions",
-              "path": "/docs/tutorial-extras/manage-docs-versions",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/0.0.1/tutorial-extras/manage-docs-versions",
+              "sidebar": "version-0.0.1/tutorialSidebar"
             },
             {
               "id": "tutorial-extras/translate-your-site",
-              "path": "/docs/tutorial-extras/translate-your-site",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/0.0.1/tutorial-extras/translate-your-site",
+              "sidebar": "version-0.0.1/tutorialSidebar"
             }
           ]
         }

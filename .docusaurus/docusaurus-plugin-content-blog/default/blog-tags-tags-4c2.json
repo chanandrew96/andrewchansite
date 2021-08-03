@@ -1,30 +1,170 @@
 {
-  "facebook": {
+  "js": {
     "allTagsPath": "/blog/tags",
-    "slug": "facebook",
-    "name": "facebook",
-    "count": 1,
-    "permalink": "/blog/tags/facebook"
-  },
-  "hello": {
-    "allTagsPath": "/blog/tags",
-    "slug": "hello",
-    "name": "hello",
-    "count": 2,
-    "permalink": "/blog/tags/hello"
+    "slug": "js",
+    "name": "js",
+    "count": 3,
+    "permalink": "/blog/tags/js"
   },
   "docusaurus": {
     "allTagsPath": "/blog/tags",
     "slug": "docusaurus",
     "name": "docusaurus",
-    "count": 3,
+    "count": 2,
     "permalink": "/blog/tags/docusaurus"
   },
-  "hola": {
+  "java-script": {
     "allTagsPath": "/blog/tags",
-    "slug": "hola",
-    "name": "hola",
+    "slug": "java-script",
+    "name": "javascript",
     "count": 1,
-    "permalink": "/blog/tags/hola"
+    "permalink": "/blog/tags/java-script"
+  },
+  "i-18-n": {
+    "allTagsPath": "/blog/tags",
+    "slug": "i-18-n",
+    "name": "i18n",
+    "count": 1,
+    "permalink": "/blog/tags/i-18-n"
+  },
+  "deployment": {
+    "allTagsPath": "/blog/tags",
+    "slug": "deployment",
+    "name": "deployment",
+    "count": 1,
+    "permalink": "/blog/tags/deployment"
+  },
+  "online-deployment": {
+    "allTagsPath": "/blog/tags",
+    "slug": "online-deployment",
+    "name": "online deployment",
+    "count": 1,
+    "permalink": "/blog/tags/online-deployment"
+  },
+  "free": {
+    "allTagsPath": "/blog/tags",
+    "slug": "free",
+    "name": "free",
+    "count": 1,
+    "permalink": "/blog/tags/free"
+  },
+  "sails-js": {
+    "allTagsPath": "/blog/tags",
+    "slug": "sails-js",
+    "name": "sailsjs",
+    "count": 2,
+    "permalink": "/blog/tags/sails-js"
+  },
+  "socket-io": {
+    "allTagsPath": "/blog/tags",
+    "slug": "socket-io",
+    "name": "socketio",
+    "count": 1,
+    "permalink": "/blog/tags/socket-io"
+  },
+  "java": {
+    "allTagsPath": "/blog/tags",
+    "slug": "java",
+    "name": "java",
+    "count": 1,
+    "permalink": "/blog/tags/java"
+  },
+  "bean": {
+    "allTagsPath": "/blog/tags",
+    "slug": "bean",
+    "name": "bean",
+    "count": 1,
+    "permalink": "/blog/tags/bean"
+  },
+  "node-js": {
+    "allTagsPath": "/blog/tags",
+    "slug": "node-js",
+    "name": "nodejs",
+    "count": 1,
+    "permalink": "/blog/tags/node-js"
+  },
+  "streaming": {
+    "allTagsPath": "/blog/tags",
+    "slug": "streaming",
+    "name": "streaming",
+    "count": 1,
+    "permalink": "/blog/tags/streaming"
+  },
+  "git-hub": {
+    "allTagsPath": "/blog/tags",
+    "slug": "git-hub",
+    "name": "github",
+    "count": 1,
+    "permalink": "/blog/tags/git-hub"
+  },
+  "avatars": {
+    "allTagsPath": "/blog/tags",
+    "slug": "avatars",
+    "name": "avatars",
+    "count": 1,
+    "permalink": "/blog/tags/avatars"
+  },
+  "import": {
+    "allTagsPath": "/blog/tags",
+    "slug": "import",
+    "name": "import",
+    "count": 1,
+    "permalink": "/blog/tags/import"
+  },
+  "require": {
+    "allTagsPath": "/blog/tags",
+    "slug": "require",
+    "name": "require",
+    "count": 1,
+    "permalink": "/blog/tags/require"
+  },
+  "basic": {
+    "allTagsPath": "/blog/tags",
+    "slug": "basic",
+    "name": "basic",
+    "count": 1,
+    "permalink": "/blog/tags/basic"
+  },
+  "theory": {
+    "allTagsPath": "/blog/tags",
+    "slug": "theory",
+    "name": "theory",
+    "count": 1,
+    "permalink": "/blog/tags/theory"
+  },
+  "parm": {
+    "allTagsPath": "/blog/tags",
+    "slug": "parm",
+    "name": "parm",
+    "count": 1,
+    "permalink": "/blog/tags/parm"
+  },
+  "var": {
+    "allTagsPath": "/blog/tags",
+    "slug": "var",
+    "name": "var",
+    "count": 1,
+    "permalink": "/blog/tags/var"
+  },
+  "function": {
+    "allTagsPath": "/blog/tags",
+    "slug": "function",
+    "name": "function",
+    "count": 1,
+    "permalink": "/blog/tags/function"
+  },
+  "method": {
+    "allTagsPath": "/blog/tags",
+    "slug": "method",
+    "name": "method",
+    "count": 1,
+    "permalink": "/blog/tags/method"
+  },
+  "blazor": {
+    "allTagsPath": "/blog/tags",
+    "slug": "blazor",
+    "name": "blazor",
+    "count": 1,
+    "permalink": "/blog/tags/blazor"
   }
 }
