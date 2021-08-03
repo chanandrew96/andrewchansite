@@ -1,15 +1,15 @@
 {
   "pluginId": "default",
-  "version": "current",
-  "label": "Next",
-  "banner": "unreleased",
-  "isLast": false,
+  "version": "0.0.2",
+  "label": "0.0.2",
+  "banner": "none",
+  "isLast": true,
   "docsSidebars": {
-    "tutorialSidebar": [
+    "version-0.0.2/tutorialSidebar": [
       {
         "type": "link",
         "label": "Documents",
-        "href": "/docs/next/docsMenu"
+        "href": "/docs/docsMenu"
       },
       {
         "type": "category",
@@ -17,13 +17,8 @@
         "items": [
           {
             "type": "link",
-            "label": "My Projects",
-            "href": "/docs/next/about-me/projects"
-          },
-          {
-            "type": "link",
             "label": "Who am I?",
-            "href": "/docs/next/about-me/who"
+            "href": "/docs/about-me/who"
           }
         ],
         "collapsed": true,
