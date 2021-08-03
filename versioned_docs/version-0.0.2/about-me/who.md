@@ -19,4 +19,5 @@ Just in case, you wanna to contact me for any inquiry, or just wanna to have a t
 It's welcome to contact me via method below!  
 - [Email](mailto:chanandrew96@yahoo.com.hk)
 - [Instagram](https://www.instagram.com/c2him)  
-- [GitHub](https://github.com/chanandrew96)
+- [GitHub](https://github.com/chanandrew96)  
+- [LinkedIn](https://www.linkedin.com/in/andrewchan-961124/)  
