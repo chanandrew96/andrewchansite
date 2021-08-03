@@ -1,0 +1,23 @@
+{
+  "unversionedId": "about-me/who",
+  "id": "version-0.0.2/about-me/who",
+  "isDocsHomePage": false,
+  "title": "Who am I?",
+  "description": "So who am I?",
+  "source": "@site/versioned_docs/version-0.0.2/about-me/who.md",
+  "sourceDirName": "about-me",
+  "slug": "/about-me/who",
+  "permalink": "/docs/about-me/who",
+  "version": "0.0.2",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "who",
+    "title": "Who am I?"
+  },
+  "sidebar": "version-0.0.2/tutorialSidebar",
+  "previous": {
+    "title": "Documents",
+    "permalink": "/docs/docsMenu"
+  }
+}

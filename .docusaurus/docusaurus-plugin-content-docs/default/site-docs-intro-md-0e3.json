@@ -4,10 +4,10 @@
   "isDocsHomePage": false,
   "title": "Tutorial Intro",
   "description": "Let's discover Docusaurus in less than 5 minutes.",
-  "source": "@site/docs/intro.md",
+  "source": "@site/docs/docsMenu.md",
   "sourceDirName": ".",
   "slug": "/intro",
-  "permalink": "/docs/intro",
+  "permalink": "/docs/next/intro",
   "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/intro.md",
   "version": "current",
   "sidebarPosition": 1,
@@ -15,8 +15,8 @@
     "sidebar_position": 1
   },
   "sidebar": "tutorialSidebar",
-  "next": {
-    "title": "Create a Page",
-    "permalink": "/docs/tutorial-basics/create-a-page"
+  "previous": {
+    "title": "Tutorial Intro",
+    "permalink": "/docs/next/docsMenu"
   }
 }

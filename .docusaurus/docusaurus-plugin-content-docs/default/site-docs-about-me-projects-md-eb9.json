@@ -1,0 +1,27 @@
+{
+  "unversionedId": "about-me/projects",
+  "id": "about-me/projects",
+  "isDocsHomePage": false,
+  "title": "My Projects",
+  "description": "Project (Career)",
+  "source": "@site/docs/about-me/projects.md",
+  "sourceDirName": "about-me",
+  "slug": "/about-me/projects",
+  "permalink": "/docs/next/about-me/projects",
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "projects",
+    "title": "My Projects"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Documents",
+    "permalink": "/docs/next/docsMenu"
+  },
+  "next": {
+    "title": "Who am I?",
+    "permalink": "/docs/next/about-me/who"
+  }
+}

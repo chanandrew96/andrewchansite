@@ -1,0 +1,23 @@
+{
+  "unversionedId": "docsMenu",
+  "id": "docsMenu",
+  "isDocsHomePage": false,
+  "title": "Documents",
+  "description": "You may checkout some document I wrote down when I learning new stuff!",
+  "source": "@site/docs/docsMenu.md",
+  "sourceDirName": ".",
+  "slug": "/docsMenu",
+  "permalink": "/docs/next/docsMenu",
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "docsMenu",
+    "title": "Documents"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "My Projects",
+    "permalink": "/docs/next/about-me/projects"
+  }
+}

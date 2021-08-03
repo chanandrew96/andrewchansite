@@ -1,0 +1,21 @@
+{
+  "unversionedId": "intro",
+  "id": "version-0.0.1/intro",
+  "isDocsHomePage": false,
+  "title": "Tutorial Intro",
+  "description": "Let's discover Docusaurus in less than 5 minutes.",
+  "source": "@site/versioned_docs/version-0.0.1/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/docs/0.0.1/intro",
+  "version": "0.0.1",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "version-0.0.1/tutorialSidebar",
+  "next": {
+    "title": "Create a Page",
+    "permalink": "/docs/0.0.1/tutorial-basics/create-a-page"
+  }
+}

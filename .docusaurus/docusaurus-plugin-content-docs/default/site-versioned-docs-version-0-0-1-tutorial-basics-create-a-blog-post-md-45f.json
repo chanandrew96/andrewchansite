@@ -1,26 +1,25 @@
 {
   "unversionedId": "tutorial-basics/create-a-blog-post",
-  "id": "tutorial-basics/create-a-blog-post",
+  "id": "version-0.0.1/tutorial-basics/create-a-blog-post",
   "isDocsHomePage": false,
   "title": "Create a Blog Post",
   "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
-  "source": "@site/docs/tutorial-basics/create-a-blog-post.md",
+  "source": "@site/versioned_docs/version-0.0.1/tutorial-basics/create-a-blog-post.md",
   "sourceDirName": "tutorial-basics",
   "slug": "/tutorial-basics/create-a-blog-post",
-  "permalink": "/docs/next/tutorial-basics/create-a-blog-post",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-basics/create-a-blog-post.md",
-  "version": "current",
+  "permalink": "/docs/0.0.1/tutorial-basics/create-a-blog-post",
+  "version": "0.0.1",
   "sidebarPosition": 3,
   "frontMatter": {
     "sidebar_position": 3
   },
-  "sidebar": "tutorialSidebar",
+  "sidebar": "version-0.0.1/tutorialSidebar",
   "previous": {
     "title": "Create a Document",
-    "permalink": "/docs/next/tutorial-basics/create-a-document"
+    "permalink": "/docs/0.0.1/tutorial-basics/create-a-document"
   },
   "next": {
     "title": "Markdown Features",
-    "permalink": "/docs/next/tutorial-basics/markdown-features"
+    "permalink": "/docs/0.0.1/tutorial-basics/markdown-features"
   }
 }
