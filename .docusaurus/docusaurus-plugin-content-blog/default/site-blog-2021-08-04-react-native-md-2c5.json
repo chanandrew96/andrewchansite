@@ -15,11 +15,11 @@
       "permalink": "/blog/tags/react-native"
     }
   ],
-  "readingTime": 0.385,
+  "readingTime": 0.445,
   "truncated": false,
   "prevItem": {
-    "title": "Code Quality Tools",
-    "permalink": "/blog/codeQualityTools"
+    "title": "Native Base",
+    "permalink": "/blog/nativeBase"
   },
   "nextItem": {
     "title": "Docusaurus",

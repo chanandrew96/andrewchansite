@@ -18,11 +18,11 @@
   "readingTime": 0.25,
   "truncated": false,
   "prevItem": {
-    "title": "Sails Js",
-    "permalink": "/blog/sailsJs"
-  },
-  "nextItem": {
     "title": "Basic theory",
     "permalink": "/blog/diff"
+  },
+  "nextItem": {
+    "title": "NodeJs related",
+    "permalink": "/blog/NodeJs"
   }
 }

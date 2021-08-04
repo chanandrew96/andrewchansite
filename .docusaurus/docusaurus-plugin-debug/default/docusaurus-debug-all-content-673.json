@@ -781,6 +781,37 @@
     "default": {
       "blogPosts": [
         {
+          "id": "codeQualityTools",
+          "metadata": {
+            "permalink": "/blog/codeQualityTools",
+            "source": "@site/blog/2021-08-04-code-quality-tools.md",
+            "title": "Code Quality Tools",
+            "description": "程式碼質量檢測工具",
+            "date": "2021-08-04T00:00:00.000Z",
+            "formattedDate": "August 4, 2021",
+            "tags": [
+              {
+                "label": "js",
+                "permalink": "/blog/tags/js"
+              },
+              {
+                "label": "code quality",
+                "permalink": "/blog/tags/code-quality"
+              },
+              {
+                "label": "tools",
+                "permalink": "/blog/tags/tools"
+              }
+            ],
+            "readingTime": 0.11,
+            "truncated": false,
+            "nextItem": {
+              "title": "Native Base",
+              "permalink": "/blog/nativeBase"
+            }
+          }
+        },
+        {
           "id": "nativeBase",
           "metadata": {
             "permalink": "/blog/nativeBase",
@@ -805,40 +836,9 @@
             ],
             "readingTime": 0.555,
             "truncated": false,
-            "nextItem": {
+            "prevItem": {
               "title": "Code Quality Tools",
               "permalink": "/blog/codeQualityTools"
-            }
-          }
-        },
-        {
-          "id": "codeQualityTools",
-          "metadata": {
-            "permalink": "/blog/codeQualityTools",
-            "source": "@site/blog/2021-08-04-code-quality-tools.md",
-            "title": "Code Quality Tools",
-            "description": "程式碼質量檢測工具",
-            "date": "2021-08-04T00:00:00.000Z",
-            "formattedDate": "August 4, 2021",
-            "tags": [
-              {
-                "label": "js",
-                "permalink": "/blog/tags/js"
-              },
-              {
-                "label": "code quality",
-                "permalink": "/blog/tags/code-quality"
-              },
-              {
-                "label": "tools",
-                "permalink": "/blog/tags/tools"
-              }
-            ],
-            "readingTime": 0.045,
-            "truncated": false,
-            "prevItem": {
-              "title": "Native Base",
-              "permalink": "/blog/nativeBase"
             },
             "nextItem": {
               "title": "React Native",
@@ -865,11 +865,11 @@
                 "permalink": "/blog/tags/react-native"
               }
             ],
-            "readingTime": 0.385,
+            "readingTime": 0.445,
             "truncated": false,
             "prevItem": {
-              "title": "Code Quality Tools",
-              "permalink": "/blog/codeQualityTools"
+              "title": "Native Base",
+              "permalink": "/blog/nativeBase"
             },
             "nextItem": {
               "title": "Docusaurus",
@@ -1012,37 +1012,6 @@
               "permalink": "/blog/online-deployment"
             },
             "nextItem": {
-              "title": "How to get GitHub Account Image",
-              "permalink": "/blog/GitHub"
-            }
-          }
-        },
-        {
-          "id": "GitHub",
-          "metadata": {
-            "permalink": "/blog/GitHub",
-            "source": "@site/blog/2021-08-02-GitHub.md",
-            "title": "How to get GitHub Account Image",
-            "description": "You can append .png to the URL for the User's profile to get redirected to their avatar. You can add the query param size to specify a size smaller than the default of 460px wide (i.e. it won't allow larger than 460).",
-            "date": "2021-08-02T00:00:00.000Z",
-            "formattedDate": "August 2, 2021",
-            "tags": [
-              {
-                "label": "GitHub",
-                "permalink": "/blog/tags/git-hub"
-              },
-              {
-                "label": "avatars",
-                "permalink": "/blog/tags/avatars"
-              }
-            ],
-            "readingTime": 0.25,
-            "truncated": false,
-            "prevItem": {
-              "title": "Sails Js",
-              "permalink": "/blog/sailsJs"
-            },
-            "nextItem": {
               "title": "Basic theory",
               "permalink": "/blog/diff"
             }
@@ -1098,8 +1067,39 @@
             "readingTime": 2.445,
             "truncated": false,
             "prevItem": {
+              "title": "Sails Js",
+              "permalink": "/blog/sailsJs"
+            },
+            "nextItem": {
               "title": "How to get GitHub Account Image",
               "permalink": "/blog/GitHub"
+            }
+          }
+        },
+        {
+          "id": "GitHub",
+          "metadata": {
+            "permalink": "/blog/GitHub",
+            "source": "@site/blog/2021-08-02-GitHub.md",
+            "title": "How to get GitHub Account Image",
+            "description": "You can append .png to the URL for the User's profile to get redirected to their avatar. You can add the query param size to specify a size smaller than the default of 460px wide (i.e. it won't allow larger than 460).",
+            "date": "2021-08-02T00:00:00.000Z",
+            "formattedDate": "August 2, 2021",
+            "tags": [
+              {
+                "label": "GitHub",
+                "permalink": "/blog/tags/git-hub"
+              },
+              {
+                "label": "avatars",
+                "permalink": "/blog/tags/avatars"
+              }
+            ],
+            "readingTime": 0.25,
+            "truncated": false,
+            "prevItem": {
+              "title": "Basic theory",
+              "permalink": "/blog/diff"
             },
             "nextItem": {
               "title": "NodeJs related",
@@ -1133,8 +1133,8 @@
             "readingTime": 0.06,
             "truncated": false,
             "prevItem": {
-              "title": "Basic theory",
-              "permalink": "/blog/diff"
+              "title": "How to get GitHub Account Image",
+              "permalink": "/blog/GitHub"
             },
             "nextItem": {
               "title": "Start Building Blazor application",
@@ -1184,15 +1184,15 @@
             "blogTitle": "Blog"
           },
           "items": [
-            "nativeBase",
             "codeQualityTools",
+            "nativeBase",
             "reactNative",
             "Docusaurus",
             "java-bean",
             "online-deployment",
             "sailsJs",
-            "GitHub",
             "diff",
+            "GitHub",
             "NodeJs"
           ]
         },
@@ -1214,29 +1214,6 @@
         }
       ],
       "blogTags": {
-        "react": {
-          "name": "react",
-          "items": [
-            "nativeBase",
-            "reactNative"
-          ],
-          "permalink": "/blog/tags/react"
-        },
-        "react-native": {
-          "name": "reactnative",
-          "items": [
-            "nativeBase",
-            "reactNative"
-          ],
-          "permalink": "/blog/tags/react-native"
-        },
-        "native-base": {
-          "name": "nativebase",
-          "items": [
-            "nativeBase"
-          ],
-          "permalink": "/blog/tags/native-base"
-        },
         "js": {
           "name": "js",
           "items": [
@@ -1260,6 +1237,29 @@
             "codeQualityTools"
           ],
           "permalink": "/blog/tags/tools"
+        },
+        "react": {
+          "name": "react",
+          "items": [
+            "nativeBase",
+            "reactNative"
+          ],
+          "permalink": "/blog/tags/react"
+        },
+        "react-native": {
+          "name": "reactnative",
+          "items": [
+            "nativeBase",
+            "reactNative"
+          ],
+          "permalink": "/blog/tags/react-native"
+        },
+        "native-base": {
+          "name": "nativebase",
+          "items": [
+            "nativeBase"
+          ],
+          "permalink": "/blog/tags/native-base"
         },
         "docusaurus": {
           "name": "docusaurus",
@@ -1333,20 +1333,6 @@
           ],
           "permalink": "/blog/tags/socket-io"
         },
-        "git-hub": {
-          "name": "github",
-          "items": [
-            "GitHub"
-          ],
-          "permalink": "/blog/tags/git-hub"
-        },
-        "avatars": {
-          "name": "avatars",
-          "items": [
-            "GitHub"
-          ],
-          "permalink": "/blog/tags/avatars"
-        },
         "import": {
           "name": "import",
           "items": [
@@ -1402,6 +1388,20 @@
             "diff"
           ],
           "permalink": "/blog/tags/method"
+        },
+        "git-hub": {
+          "name": "github",
+          "items": [
+            "GitHub"
+          ],
+          "permalink": "/blog/tags/git-hub"
+        },
+        "avatars": {
+          "name": "avatars",
+          "items": [
+            "GitHub"
+          ],
+          "permalink": "/blog/tags/avatars"
         },
         "node-js": {
           "name": "nodejs",

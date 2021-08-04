@@ -1,25 +1,4 @@
 {
-  "react": {
-    "allTagsPath": "/blog/tags",
-    "slug": "react",
-    "name": "react",
-    "count": 2,
-    "permalink": "/blog/tags/react"
-  },
-  "react-native": {
-    "allTagsPath": "/blog/tags",
-    "slug": "react-native",
-    "name": "reactnative",
-    "count": 2,
-    "permalink": "/blog/tags/react-native"
-  },
-  "native-base": {
-    "allTagsPath": "/blog/tags",
-    "slug": "native-base",
-    "name": "nativebase",
-    "count": 1,
-    "permalink": "/blog/tags/native-base"
-  },
   "js": {
     "allTagsPath": "/blog/tags",
     "slug": "js",
@@ -40,6 +19,27 @@
     "name": "tools",
     "count": 1,
     "permalink": "/blog/tags/tools"
+  },
+  "react": {
+    "allTagsPath": "/blog/tags",
+    "slug": "react",
+    "name": "react",
+    "count": 2,
+    "permalink": "/blog/tags/react"
+  },
+  "react-native": {
+    "allTagsPath": "/blog/tags",
+    "slug": "react-native",
+    "name": "reactnative",
+    "count": 2,
+    "permalink": "/blog/tags/react-native"
+  },
+  "native-base": {
+    "allTagsPath": "/blog/tags",
+    "slug": "native-base",
+    "name": "nativebase",
+    "count": 1,
+    "permalink": "/blog/tags/native-base"
   },
   "docusaurus": {
     "allTagsPath": "/blog/tags",
@@ -111,20 +111,6 @@
     "count": 1,
     "permalink": "/blog/tags/socket-io"
   },
-  "git-hub": {
-    "allTagsPath": "/blog/tags",
-    "slug": "git-hub",
-    "name": "github",
-    "count": 1,
-    "permalink": "/blog/tags/git-hub"
-  },
-  "avatars": {
-    "allTagsPath": "/blog/tags",
-    "slug": "avatars",
-    "name": "avatars",
-    "count": 1,
-    "permalink": "/blog/tags/avatars"
-  },
   "import": {
     "allTagsPath": "/blog/tags",
     "slug": "import",
@@ -180,6 +166,20 @@
     "name": "method",
     "count": 1,
     "permalink": "/blog/tags/method"
+  },
+  "git-hub": {
+    "allTagsPath": "/blog/tags",
+    "slug": "git-hub",
+    "name": "github",
+    "count": 1,
+    "permalink": "/blog/tags/git-hub"
+  },
+  "avatars": {
+    "allTagsPath": "/blog/tags",
+    "slug": "avatars",
+    "name": "avatars",
+    "count": 1,
+    "permalink": "/blog/tags/avatars"
   },
   "node-js": {
     "allTagsPath": "/blog/tags",

@@ -19,14 +19,10 @@
       "permalink": "/blog/tags/tools"
     }
   ],
-  "readingTime": 0.045,
+  "readingTime": 0.11,
   "truncated": false,
-  "prevItem": {
+  "nextItem": {
     "title": "Native Base",
     "permalink": "/blog/nativeBase"
-  },
-  "nextItem": {
-    "title": "React Native",
-    "permalink": "/blog/reactNative"
   }
 }

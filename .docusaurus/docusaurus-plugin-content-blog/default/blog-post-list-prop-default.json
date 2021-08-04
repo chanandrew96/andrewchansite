@@ -2,12 +2,12 @@
   "title": "Recent posts",
   "items": [
     {
-      "title": "Native Base",
-      "permalink": "/blog/nativeBase"
-    },
-    {
       "title": "Code Quality Tools",
       "permalink": "/blog/codeQualityTools"
+    },
+    {
+      "title": "Native Base",
+      "permalink": "/blog/nativeBase"
     },
     {
       "title": "React Native",

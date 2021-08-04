@@ -21,8 +21,12 @@
   ],
   "readingTime": 0.555,
   "truncated": false,
-  "nextItem": {
+  "prevItem": {
     "title": "Code Quality Tools",
     "permalink": "/blog/codeQualityTools"
+  },
+  "nextItem": {
+    "title": "React Native",
+    "permalink": "/blog/reactNative"
   }
 }
