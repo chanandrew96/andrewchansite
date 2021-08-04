@@ -8,9 +8,9 @@
           "versionPath": "/docs/next",
           "versionBanner": "unreleased",
           "isLast": false,
-          "sidebarFilePath": "C:\\Users\\user\\Desktop\\Andrew\\Project\\docusaurus\\andrewchansite\\sidebars.js",
-          "contentPath": "C:\\Users\\user\\Desktop\\Andrew\\Project\\docusaurus\\andrewchansite\\docs",
-          "contentPathLocalized": "C:\\Users\\user\\Desktop\\Andrew\\Project\\docusaurus\\andrewchansite\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "sidebarFilePath": "C:\\Users\\user\\Desktop\\Andrew\\Project\\docusaurus\\andrewchansite_Github\\sidebars.js",
+          "contentPath": "C:\\Users\\user\\Desktop\\Andrew\\Project\\docusaurus\\andrewchansite_Github\\docs",
+          "contentPathLocalized": "C:\\Users\\user\\Desktop\\Andrew\\Project\\docusaurus\\andrewchansite_Github\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "mainDocId": "docsMenu",
           "sidebars": {
             "tutorialSidebar": [
@@ -29,6 +29,46 @@
                   {
                     "type": "doc",
                     "id": "about-me/who"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "learning-notes",
+                "items": [
+                  {
+                    "type": "category",
+                    "label": "blazor",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "learning-notes/blazor/blazorIntro"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "docusaurus",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "learning-notes/docusaurus/docusaurusIntro"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "learning-notes/docusaurus/docusaurusConfig"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "learning-notes/docusaurus/docusaurusi18n"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
                   }
                 ],
                 "collapsed": true,
@@ -85,6 +125,10 @@
               "previous": {
                 "title": "My Projects",
                 "permalink": "/docs/next/about-me/projects"
+              },
+              "next": {
+                "title": "開始建立Blazor Application",
+                "permalink": "/docs/next/learning-notes/blazor/blazorIntro"
               }
             },
             {
@@ -109,6 +153,110 @@
                 "title": "My Projects",
                 "permalink": "/docs/next/about-me/projects"
               }
+            },
+            {
+              "unversionedId": "learning-notes/blazor/blazorIntro",
+              "id": "learning-notes/blazor/blazorIntro",
+              "isDocsHomePage": false,
+              "title": "開始建立Blazor Application",
+              "description": "開始建立Blazor Application",
+              "source": "@site/docs/learning-notes/blazor/00-introduction.md",
+              "sourceDirName": "learning-notes/blazor",
+              "slug": "/learning-notes/blazor/blazorIntro",
+              "permalink": "/docs/next/learning-notes/blazor/blazorIntro",
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "id": "blazorIntro",
+                "title": "開始建立Blazor Application"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Who am I?",
+                "permalink": "/docs/next/about-me/who"
+              },
+              "next": {
+                "title": "開始建立Docusaurus",
+                "permalink": "/docs/next/learning-notes/docusaurus/docusaurusIntro"
+              }
+            },
+            {
+              "unversionedId": "learning-notes/docusaurus/docusaurusConfig",
+              "id": "learning-notes/docusaurus/docusaurusConfig",
+              "isDocsHomePage": false,
+              "title": "設定docusaurus.config.js",
+              "description": "設定docusaurus.config.js",
+              "source": "@site/docs/learning-notes/docusaurus/01-config.md",
+              "sourceDirName": "learning-notes/docusaurus",
+              "slug": "/learning-notes/docusaurus/docusaurusConfig",
+              "permalink": "/docs/next/learning-notes/docusaurus/docusaurusConfig",
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "id": "docusaurusConfig",
+                "title": "設定docusaurus.config.js"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "開始建立Docusaurus",
+                "permalink": "/docs/next/learning-notes/docusaurus/docusaurusIntro"
+              },
+              "next": {
+                "title": "設定Docusaurus i18n",
+                "permalink": "/docs/next/learning-notes/docusaurus/docusaurusi18n"
+              }
+            },
+            {
+              "unversionedId": "learning-notes/docusaurus/docusaurusi18n",
+              "id": "learning-notes/docusaurus/docusaurusi18n",
+              "isDocsHomePage": false,
+              "title": "設定Docusaurus i18n",
+              "description": "設定Docusaurus i18n",
+              "source": "@site/docs/learning-notes/docusaurus/02-i18n.md",
+              "sourceDirName": "learning-notes/docusaurus",
+              "slug": "/learning-notes/docusaurus/docusaurusi18n",
+              "permalink": "/docs/next/learning-notes/docusaurus/docusaurusi18n",
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "id": "docusaurusi18n",
+                "title": "設定Docusaurus i18n"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "設定docusaurus.config.js",
+                "permalink": "/docs/next/learning-notes/docusaurus/docusaurusConfig"
+              }
+            },
+            {
+              "unversionedId": "learning-notes/docusaurus/docusaurusIntro",
+              "id": "learning-notes/docusaurus/docusaurusIntro",
+              "isDocsHomePage": false,
+              "title": "開始建立Docusaurus",
+              "description": "開始建立Docusaurus",
+              "source": "@site/docs/learning-notes/docusaurus/00-introduction.md",
+              "sourceDirName": "learning-notes/docusaurus",
+              "slug": "/learning-notes/docusaurus/docusaurusIntro",
+              "permalink": "/docs/next/learning-notes/docusaurus/docusaurusIntro",
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "id": "docusaurusIntro",
+                "title": "開始建立Docusaurus"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "開始建立Blazor Application",
+                "permalink": "/docs/next/learning-notes/blazor/blazorIntro"
+              },
+              "next": {
+                "title": "設定docusaurus.config.js",
+                "permalink": "/docs/next/learning-notes/docusaurus/docusaurusConfig"
+              }
             }
           ]
         },
@@ -119,9 +267,9 @@
           "versionBanner": "none",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "C:\\Users\\user\\Desktop\\Andrew\\Project\\docusaurus\\andrewchansite\\versioned_sidebars\\version-0.0.2-sidebars.json",
-          "contentPath": "C:\\Users\\user\\Desktop\\Andrew\\Project\\docusaurus\\andrewchansite\\versioned_docs\\version-0.0.2",
-          "contentPathLocalized": "C:\\Users\\user\\Desktop\\Andrew\\Project\\docusaurus\\andrewchansite\\i18n\\en\\docusaurus-plugin-content-docs\\version-0.0.2",
+          "sidebarFilePath": "C:\\Users\\user\\Desktop\\Andrew\\Project\\docusaurus\\andrewchansite_Github\\versioned_sidebars\\version-0.0.2-sidebars.json",
+          "contentPath": "C:\\Users\\user\\Desktop\\Andrew\\Project\\docusaurus\\andrewchansite_Github\\versioned_docs\\version-0.0.2",
+          "contentPathLocalized": "C:\\Users\\user\\Desktop\\Andrew\\Project\\docusaurus\\andrewchansite_Github\\i18n\\en\\docusaurus-plugin-content-docs\\version-0.0.2",
           "mainDocId": "docsMenu",
           "sidebars": {
             "version-0.0.2/tutorialSidebar": [
@@ -136,6 +284,46 @@
                   {
                     "type": "doc",
                     "id": "version-0.0.2/about-me/who"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "learning-notes",
+                "items": [
+                  {
+                    "type": "category",
+                    "label": "blazor",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "version-0.0.2/learning-notes/blazor/blazorIntro"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "docusaurus",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "version-0.0.2/learning-notes/docusaurus/docusaurusIntro"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "version-0.0.2/learning-notes/docusaurus/docusaurusConfig"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "version-0.0.2/learning-notes/docusaurus/docusaurusi18n"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
                   }
                 ],
                 "collapsed": true,
@@ -165,6 +353,10 @@
               "previous": {
                 "title": "Documents",
                 "permalink": "/docs/docsMenu"
+              },
+              "next": {
+                "title": "開始建立Blazor Application",
+                "permalink": "/docs/learning-notes/blazor/blazorIntro"
               }
             },
             {
@@ -189,6 +381,110 @@
                 "title": "Who am I?",
                 "permalink": "/docs/about-me/who"
               }
+            },
+            {
+              "unversionedId": "learning-notes/blazor/blazorIntro",
+              "id": "version-0.0.2/learning-notes/blazor/blazorIntro",
+              "isDocsHomePage": false,
+              "title": "開始建立Blazor Application",
+              "description": "開始建立Blazor Application",
+              "source": "@site/versioned_docs/version-0.0.2/learning-notes/blazor/00-introduction.md",
+              "sourceDirName": "learning-notes/blazor",
+              "slug": "/learning-notes/blazor/blazorIntro",
+              "permalink": "/docs/learning-notes/blazor/blazorIntro",
+              "version": "0.0.2",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "id": "blazorIntro",
+                "title": "開始建立Blazor Application"
+              },
+              "sidebar": "version-0.0.2/tutorialSidebar",
+              "previous": {
+                "title": "Who am I?",
+                "permalink": "/docs/about-me/who"
+              },
+              "next": {
+                "title": "開始建立Docusaurus",
+                "permalink": "/docs/learning-notes/docusaurus/docusaurusIntro"
+              }
+            },
+            {
+              "unversionedId": "learning-notes/docusaurus/docusaurusConfig",
+              "id": "version-0.0.2/learning-notes/docusaurus/docusaurusConfig",
+              "isDocsHomePage": false,
+              "title": "設定docusaurus.config.js",
+              "description": "設定docusaurus.config.js",
+              "source": "@site/versioned_docs/version-0.0.2/learning-notes/docusaurus/01-config.md",
+              "sourceDirName": "learning-notes/docusaurus",
+              "slug": "/learning-notes/docusaurus/docusaurusConfig",
+              "permalink": "/docs/learning-notes/docusaurus/docusaurusConfig",
+              "version": "0.0.2",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "id": "docusaurusConfig",
+                "title": "設定docusaurus.config.js"
+              },
+              "sidebar": "version-0.0.2/tutorialSidebar",
+              "previous": {
+                "title": "開始建立Docusaurus",
+                "permalink": "/docs/learning-notes/docusaurus/docusaurusIntro"
+              },
+              "next": {
+                "title": "設定Docusaurus i18n",
+                "permalink": "/docs/learning-notes/docusaurus/docusaurusi18n"
+              }
+            },
+            {
+              "unversionedId": "learning-notes/docusaurus/docusaurusi18n",
+              "id": "version-0.0.2/learning-notes/docusaurus/docusaurusi18n",
+              "isDocsHomePage": false,
+              "title": "設定Docusaurus i18n",
+              "description": "設定Docusaurus i18n",
+              "source": "@site/versioned_docs/version-0.0.2/learning-notes/docusaurus/02-i18n.md",
+              "sourceDirName": "learning-notes/docusaurus",
+              "slug": "/learning-notes/docusaurus/docusaurusi18n",
+              "permalink": "/docs/learning-notes/docusaurus/docusaurusi18n",
+              "version": "0.0.2",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "id": "docusaurusi18n",
+                "title": "設定Docusaurus i18n"
+              },
+              "sidebar": "version-0.0.2/tutorialSidebar",
+              "previous": {
+                "title": "設定docusaurus.config.js",
+                "permalink": "/docs/learning-notes/docusaurus/docusaurusConfig"
+              }
+            },
+            {
+              "unversionedId": "learning-notes/docusaurus/docusaurusIntro",
+              "id": "version-0.0.2/learning-notes/docusaurus/docusaurusIntro",
+              "isDocsHomePage": false,
+              "title": "開始建立Docusaurus",
+              "description": "開始建立Docusaurus",
+              "source": "@site/versioned_docs/version-0.0.2/learning-notes/docusaurus/00-introduction.md",
+              "sourceDirName": "learning-notes/docusaurus",
+              "slug": "/learning-notes/docusaurus/docusaurusIntro",
+              "permalink": "/docs/learning-notes/docusaurus/docusaurusIntro",
+              "version": "0.0.2",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "id": "docusaurusIntro",
+                "title": "開始建立Docusaurus"
+              },
+              "sidebar": "version-0.0.2/tutorialSidebar",
+              "previous": {
+                "title": "開始建立Blazor Application",
+                "permalink": "/docs/learning-notes/blazor/blazorIntro"
+              },
+              "next": {
+                "title": "設定docusaurus.config.js",
+                "permalink": "/docs/learning-notes/docusaurus/docusaurusConfig"
+              }
             }
           ]
         },
@@ -198,9 +494,9 @@
           "versionPath": "/docs/0.0.1",
           "versionBanner": "unmaintained",
           "isLast": false,
-          "sidebarFilePath": "C:\\Users\\user\\Desktop\\Andrew\\Project\\docusaurus\\andrewchansite\\versioned_sidebars\\version-0.0.1-sidebars.json",
-          "contentPath": "C:\\Users\\user\\Desktop\\Andrew\\Project\\docusaurus\\andrewchansite\\versioned_docs\\version-0.0.1",
-          "contentPathLocalized": "C:\\Users\\user\\Desktop\\Andrew\\Project\\docusaurus\\andrewchansite\\i18n\\en\\docusaurus-plugin-content-docs\\version-0.0.1",
+          "sidebarFilePath": "C:\\Users\\user\\Desktop\\Andrew\\Project\\docusaurus\\andrewchansite_Github\\versioned_sidebars\\version-0.0.1-sidebars.json",
+          "contentPath": "C:\\Users\\user\\Desktop\\Andrew\\Project\\docusaurus\\andrewchansite_Github\\versioned_docs\\version-0.0.1",
+          "contentPathLocalized": "C:\\Users\\user\\Desktop\\Andrew\\Project\\docusaurus\\andrewchansite_Github\\i18n\\en\\docusaurus-plugin-content-docs\\version-0.0.1",
           "mainDocId": "intro",
           "sidebars": {
             "version-0.0.1/tutorialSidebar": [
@@ -485,6 +781,103 @@
     "default": {
       "blogPosts": [
         {
+          "id": "nativeBase",
+          "metadata": {
+            "permalink": "/blog/nativeBase",
+            "source": "@site/blog/2021-08-04-native-base.md",
+            "title": "Native Base",
+            "description": "應用UI程式庫 - NativeBase",
+            "date": "2021-08-04T00:00:00.000Z",
+            "formattedDate": "August 4, 2021",
+            "tags": [
+              {
+                "label": "react",
+                "permalink": "/blog/tags/react"
+              },
+              {
+                "label": "reactNative",
+                "permalink": "/blog/tags/react-native"
+              },
+              {
+                "label": "nativeBase",
+                "permalink": "/blog/tags/native-base"
+              }
+            ],
+            "readingTime": 0.555,
+            "truncated": false,
+            "nextItem": {
+              "title": "Code Quality Tools",
+              "permalink": "/blog/codeQualityTools"
+            }
+          }
+        },
+        {
+          "id": "codeQualityTools",
+          "metadata": {
+            "permalink": "/blog/codeQualityTools",
+            "source": "@site/blog/2021-08-04-code-quality-tools.md",
+            "title": "Code Quality Tools",
+            "description": "程式碼質量檢測工具",
+            "date": "2021-08-04T00:00:00.000Z",
+            "formattedDate": "August 4, 2021",
+            "tags": [
+              {
+                "label": "js",
+                "permalink": "/blog/tags/js"
+              },
+              {
+                "label": "code quality",
+                "permalink": "/blog/tags/code-quality"
+              },
+              {
+                "label": "tools",
+                "permalink": "/blog/tags/tools"
+              }
+            ],
+            "readingTime": 0.045,
+            "truncated": false,
+            "prevItem": {
+              "title": "Native Base",
+              "permalink": "/blog/nativeBase"
+            },
+            "nextItem": {
+              "title": "React Native",
+              "permalink": "/blog/reactNative"
+            }
+          }
+        },
+        {
+          "id": "reactNative",
+          "metadata": {
+            "permalink": "/blog/reactNative",
+            "source": "@site/blog/2021-08-04-react-native.md",
+            "title": "React Native",
+            "description": "依賴及設定",
+            "date": "2021-08-04T00:00:00.000Z",
+            "formattedDate": "August 4, 2021",
+            "tags": [
+              {
+                "label": "react",
+                "permalink": "/blog/tags/react"
+              },
+              {
+                "label": "reactNative",
+                "permalink": "/blog/tags/react-native"
+              }
+            ],
+            "readingTime": 0.385,
+            "truncated": false,
+            "prevItem": {
+              "title": "Code Quality Tools",
+              "permalink": "/blog/codeQualityTools"
+            },
+            "nextItem": {
+              "title": "Docusaurus",
+              "permalink": "/blog/Docusaurus"
+            }
+          }
+        },
+        {
           "id": "Docusaurus",
           "metadata": {
             "permalink": "/blog/Docusaurus",
@@ -513,6 +906,41 @@
             ],
             "readingTime": 2.785,
             "truncated": false,
+            "prevItem": {
+              "title": "React Native",
+              "permalink": "/blog/reactNative"
+            },
+            "nextItem": {
+              "title": "Java & Bean",
+              "permalink": "/blog/java-bean"
+            }
+          }
+        },
+        {
+          "id": "java-bean",
+          "metadata": {
+            "permalink": "/blog/java-bean",
+            "source": "@site/blog/2021-08-03-java-bean.md",
+            "title": "Java & Bean",
+            "description": "什么是JavaBean、bean? 什么是POJO、PO、DTO、VO、BO ? 什么是EJB、EntityBean？",
+            "date": "2021-08-03T00:00:00.000Z",
+            "formattedDate": "August 3, 2021",
+            "tags": [
+              {
+                "label": "Java",
+                "permalink": "/blog/tags/java"
+              },
+              {
+                "label": "Bean",
+                "permalink": "/blog/tags/bean"
+              }
+            ],
+            "readingTime": 0.02,
+            "truncated": false,
+            "prevItem": {
+              "title": "Docusaurus",
+              "permalink": "/blog/Docusaurus"
+            },
             "nextItem": {
               "title": "Online Deployment",
               "permalink": "/blog/online-deployment"
@@ -542,11 +970,11 @@
                 "permalink": "/blog/tags/free"
               }
             ],
-            "readingTime": 0.22,
+            "readingTime": 0.295,
             "truncated": false,
             "prevItem": {
-              "title": "Docusaurus",
-              "permalink": "/blog/Docusaurus"
+              "title": "Java & Bean",
+              "permalink": "/blog/java-bean"
             },
             "nextItem": {
               "title": "Sails Js",
@@ -584,72 +1012,6 @@
               "permalink": "/blog/online-deployment"
             },
             "nextItem": {
-              "title": "Java & Bean",
-              "permalink": "/blog/java-bean"
-            }
-          }
-        },
-        {
-          "id": "java-bean",
-          "metadata": {
-            "permalink": "/blog/java-bean",
-            "source": "@site/blog/2021-08-03-java-bean.md",
-            "title": "Java & Bean",
-            "description": "什么是JavaBean、bean? 什么是POJO、PO、DTO、VO、BO ? 什么是EJB、EntityBean？",
-            "date": "2021-08-03T00:00:00.000Z",
-            "formattedDate": "August 3, 2021",
-            "tags": [
-              {
-                "label": "Java",
-                "permalink": "/blog/tags/java"
-              },
-              {
-                "label": "Bean",
-                "permalink": "/blog/tags/bean"
-              }
-            ],
-            "readingTime": 0.02,
-            "truncated": false,
-            "prevItem": {
-              "title": "Sails Js",
-              "permalink": "/blog/sailsJs"
-            },
-            "nextItem": {
-              "title": "NodeJs related",
-              "permalink": "/blog/NodeJs"
-            }
-          }
-        },
-        {
-          "id": "NodeJs",
-          "metadata": {
-            "permalink": "/blog/NodeJs",
-            "source": "@site/blog/2021-08-02-nodejs.md",
-            "title": "NodeJs related",
-            "description": "15 个常见的 Node.js 面试问题及答案",
-            "date": "2021-08-02T00:00:00.000Z",
-            "formattedDate": "August 2, 2021",
-            "tags": [
-              {
-                "label": "NodeJs",
-                "permalink": "/blog/tags/node-js"
-              },
-              {
-                "label": "Streaming",
-                "permalink": "/blog/tags/streaming"
-              },
-              {
-                "label": "sailsJs",
-                "permalink": "/blog/tags/sails-js"
-              }
-            ],
-            "readingTime": 0.06,
-            "truncated": false,
-            "prevItem": {
-              "title": "Java & Bean",
-              "permalink": "/blog/java-bean"
-            },
-            "nextItem": {
               "title": "How to get GitHub Account Image",
               "permalink": "/blog/GitHub"
             }
@@ -677,8 +1039,8 @@
             "readingTime": 0.25,
             "truncated": false,
             "prevItem": {
-              "title": "NodeJs related",
-              "permalink": "/blog/NodeJs"
+              "title": "Sails Js",
+              "permalink": "/blog/sailsJs"
             },
             "nextItem": {
               "title": "Basic theory",
@@ -740,15 +1102,50 @@
               "permalink": "/blog/GitHub"
             },
             "nextItem": {
-              "title": "Start Building Blazor application",
-              "permalink": "/blog/build"
+              "title": "NodeJs related",
+              "permalink": "/blog/NodeJs"
             }
           }
         },
         {
-          "id": "build",
+          "id": "NodeJs",
           "metadata": {
-            "permalink": "/blog/build",
+            "permalink": "/blog/NodeJs",
+            "source": "@site/blog/2021-08-02-nodejs.md",
+            "title": "NodeJs related",
+            "description": "15 个常见的 Node.js 面试问题及答案",
+            "date": "2021-08-02T00:00:00.000Z",
+            "formattedDate": "August 2, 2021",
+            "tags": [
+              {
+                "label": "NodeJs",
+                "permalink": "/blog/tags/node-js"
+              },
+              {
+                "label": "Streaming",
+                "permalink": "/blog/tags/streaming"
+              },
+              {
+                "label": "sailsJs",
+                "permalink": "/blog/tags/sails-js"
+              }
+            ],
+            "readingTime": 0.06,
+            "truncated": false,
+            "prevItem": {
+              "title": "Basic theory",
+              "permalink": "/blog/diff"
+            },
+            "nextItem": {
+              "title": "Start Building Blazor application",
+              "permalink": "/blog/start-blazor"
+            }
+          }
+        },
+        {
+          "id": "start-blazor",
+          "metadata": {
+            "permalink": "/blog/start-blazor",
             "source": "@site/blog/2021-08-02-start-blazor.md",
             "title": "Start Building Blazor application",
             "description": "開始建立Blazor Application的學習筆記",
@@ -767,8 +1164,8 @@
             "readingTime": 1.29,
             "truncated": false,
             "prevItem": {
-              "title": "Basic theory",
-              "permalink": "/blog/diff"
+              "title": "NodeJs related",
+              "permalink": "/blog/NodeJs"
             }
           }
         }
@@ -779,40 +1176,96 @@
             "permalink": "/blog",
             "page": 1,
             "postsPerPage": 10,
-            "totalPages": 1,
-            "totalCount": 8,
+            "totalPages": 2,
+            "totalCount": 11,
             "previousPage": null,
+            "nextPage": "/blog/page/2",
+            "blogDescription": "Blog",
+            "blogTitle": "Blog"
+          },
+          "items": [
+            "nativeBase",
+            "codeQualityTools",
+            "reactNative",
+            "Docusaurus",
+            "java-bean",
+            "online-deployment",
+            "sailsJs",
+            "GitHub",
+            "diff",
+            "NodeJs"
+          ]
+        },
+        {
+          "metadata": {
+            "permalink": "/blog/page/2",
+            "page": 2,
+            "postsPerPage": 10,
+            "totalPages": 2,
+            "totalCount": 11,
+            "previousPage": "/blog",
             "nextPage": null,
             "blogDescription": "Blog",
             "blogTitle": "Blog"
           },
           "items": [
-            "Docusaurus",
-            "online-deployment",
-            "sailsJs",
-            "java-bean",
-            "NodeJs",
-            "GitHub",
-            "diff",
-            "build"
+            "start-blazor"
           ]
         }
       ],
       "blogTags": {
+        "react": {
+          "name": "react",
+          "items": [
+            "nativeBase",
+            "reactNative"
+          ],
+          "permalink": "/blog/tags/react"
+        },
+        "react-native": {
+          "name": "reactnative",
+          "items": [
+            "nativeBase",
+            "reactNative"
+          ],
+          "permalink": "/blog/tags/react-native"
+        },
+        "native-base": {
+          "name": "nativebase",
+          "items": [
+            "nativeBase"
+          ],
+          "permalink": "/blog/tags/native-base"
+        },
         "js": {
           "name": "js",
           "items": [
+            "codeQualityTools",
             "Docusaurus",
             "sailsJs",
             "diff"
           ],
           "permalink": "/blog/tags/js"
         },
+        "code-quality": {
+          "name": "code quality",
+          "items": [
+            "codeQualityTools"
+          ],
+          "permalink": "/blog/tags/code-quality"
+        },
+        "tools": {
+          "name": "tools",
+          "items": [
+            "codeQualityTools"
+          ],
+          "permalink": "/blog/tags/tools"
+        },
         "docusaurus": {
           "name": "docusaurus",
           "items": [
             "Docusaurus",
-            "build"
+            "start-blazor"
           ],
           "permalink": "/blog/tags/docusaurus"
         },
@@ -829,6 +1282,20 @@
             "Docusaurus"
           ],
           "permalink": "/blog/tags/i-18-n"
+        },
+        "java": {
+          "name": "java",
+          "items": [
+            "java-bean"
+          ],
+          "permalink": "/blog/tags/java"
+        },
+        "bean": {
+          "name": "bean",
+          "items": [
+            "java-bean"
+          ],
+          "permalink": "/blog/tags/bean"
         },
         "deployment": {
           "name": "deployment",
@@ -865,34 +1332,6 @@
             "sailsJs"
           ],
           "permalink": "/blog/tags/socket-io"
-        },
-        "java": {
-          "name": "java",
-          "items": [
-            "java-bean"
-          ],
-          "permalink": "/blog/tags/java"
-        },
-        "bean": {
-          "name": "bean",
-          "items": [
-            "java-bean"
-          ],
-          "permalink": "/blog/tags/bean"
-        },
-        "node-js": {
-          "name": "nodejs",
-          "items": [
-            "NodeJs"
-          ],
-          "permalink": "/blog/tags/node-js"
-        },
-        "streaming": {
-          "name": "streaming",
-          "items": [
-            "NodeJs"
-          ],
-          "permalink": "/blog/tags/streaming"
         },
         "git-hub": {
           "name": "github",
@@ -964,10 +1403,24 @@
           ],
           "permalink": "/blog/tags/method"
         },
+        "node-js": {
+          "name": "nodejs",
+          "items": [
+            "NodeJs"
+          ],
+          "permalink": "/blog/tags/node-js"
+        },
+        "streaming": {
+          "name": "streaming",
+          "items": [
+            "NodeJs"
+          ],
+          "permalink": "/blog/tags/streaming"
+        },
         "blazor": {
           "name": "blazor",
           "items": [
-            "build"
+            "start-blazor"
           ],
           "permalink": "/blog/tags/blazor"
         }

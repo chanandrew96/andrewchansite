@@ -24,6 +24,26 @@
               "id": "docsMenu",
               "path": "/docs/next/docsMenu",
               "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "learning-notes/blazor/blazorIntro",
+              "path": "/docs/next/learning-notes/blazor/blazorIntro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "learning-notes/docusaurus/docusaurusConfig",
+              "path": "/docs/next/learning-notes/docusaurus/docusaurusConfig",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "learning-notes/docusaurus/docusaurusi18n",
+              "path": "/docs/next/learning-notes/docusaurus/docusaurusi18n",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "learning-notes/docusaurus/docusaurusIntro",
+              "path": "/docs/next/learning-notes/docusaurus/docusaurusIntro",
+              "sidebar": "tutorialSidebar"
             }
           ]
         },
@@ -42,6 +62,26 @@
             {
               "id": "docsMenu",
               "path": "/docs/docsMenu",
+              "sidebar": "version-0.0.2/tutorialSidebar"
+            },
+            {
+              "id": "learning-notes/blazor/blazorIntro",
+              "path": "/docs/learning-notes/blazor/blazorIntro",
+              "sidebar": "version-0.0.2/tutorialSidebar"
+            },
+            {
+              "id": "learning-notes/docusaurus/docusaurusConfig",
+              "path": "/docs/learning-notes/docusaurus/docusaurusConfig",
+              "sidebar": "version-0.0.2/tutorialSidebar"
+            },
+            {
+              "id": "learning-notes/docusaurus/docusaurusi18n",
+              "path": "/docs/learning-notes/docusaurus/docusaurusi18n",
+              "sidebar": "version-0.0.2/tutorialSidebar"
+            },
+            {
+              "id": "learning-notes/docusaurus/docusaurusIntro",
+              "path": "/docs/learning-notes/docusaurus/docusaurusIntro",
               "sidebar": "version-0.0.2/tutorialSidebar"
             }
           ]

@@ -1,0 +1,32 @@
+{
+  "permalink": "/blog/codeQualityTools",
+  "source": "@site/blog/2021-08-04-code-quality-tools.md",
+  "title": "Code Quality Tools",
+  "description": "程式碼質量檢測工具",
+  "date": "2021-08-04T00:00:00.000Z",
+  "formattedDate": "August 4, 2021",
+  "tags": [
+    {
+      "label": "js",
+      "permalink": "/blog/tags/js"
+    },
+    {
+      "label": "code quality",
+      "permalink": "/blog/tags/code-quality"
+    },
+    {
+      "label": "tools",
+      "permalink": "/blog/tags/tools"
+    }
+  ],
+  "readingTime": 0.045,
+  "truncated": false,
+  "prevItem": {
+    "title": "Native Base",
+    "permalink": "/blog/nativeBase"
+  },
+  "nextItem": {
+    "title": "React Native",
+    "permalink": "/blog/reactNative"
+  }
+}

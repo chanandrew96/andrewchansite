@@ -25,8 +25,12 @@
   ],
   "readingTime": 2.785,
   "truncated": false,
+  "prevItem": {
+    "title": "React Native",
+    "permalink": "/blog/reactNative"
+  },
   "nextItem": {
-    "title": "Online Deployment",
-    "permalink": "/blog/online-deployment"
+    "title": "Java & Bean",
+    "permalink": "/blog/java-bean"
   }
 }

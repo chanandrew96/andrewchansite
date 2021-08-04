@@ -297,13 +297,13 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "C:\\Users\\user\\Desktop\\Andrew\\Project\\docusaurus\\andrewchansite\\sidebars.js"
+          "sidebarPath": "C:\\Users\\user\\Desktop\\Andrew\\Project\\docusaurus\\andrewchansite_Github\\sidebars.js"
         },
         "blog": {
           "showReadingTime": true
         },
         "theme": {
-          "customCss": "C:\\Users\\user\\Desktop\\Andrew\\Project\\docusaurus\\andrewchansite\\src\\css\\custom.css"
+          "customCss": "C:\\Users\\user\\Desktop\\Andrew\\Project\\docusaurus\\andrewchansite_Github\\src\\css\\custom.css"
         }
       }
     ]

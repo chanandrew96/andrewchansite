@@ -2,24 +2,24 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "Native Base",
+      "permalink": "/blog/nativeBase"
+    },
+    {
+      "title": "Code Quality Tools",
+      "permalink": "/blog/codeQualityTools"
+    },
+    {
+      "title": "React Native",
+      "permalink": "/blog/reactNative"
+    },
+    {
       "title": "Docusaurus",
       "permalink": "/blog/Docusaurus"
     },
     {
-      "title": "Online Deployment",
-      "permalink": "/blog/online-deployment"
-    },
-    {
-      "title": "Sails Js",
-      "permalink": "/blog/sailsJs"
-    },
-    {
       "title": "Java & Bean",
       "permalink": "/blog/java-bean"
-    },
-    {
-      "title": "NodeJs related",
-      "permalink": "/blog/NodeJs"
     }
   ]
 }

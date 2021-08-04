@@ -25,12 +25,24 @@
   "/__docusaurus/debug/routes-244": {
     "component": "component---theme-debug-routes-946-699"
   },
-  "/blog-291": {
+  "/blog-1f6": {
     "component": "component---theme-blog-list-pagea-6-a-7ba",
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
+        "content": "content---blog-923-6ab"
+      },
+      {
+        "content": "content---bloge-9-d-d41"
+      },
+      {
+        "content": "content---blog-9-d-8-1f0"
+      },
+      {
         "content": "content---blog-708-79c"
+      },
+      {
+        "content": "content---blogc-39-21d"
       },
       {
         "content": "content---blog-88-d-29b"
@@ -39,27 +51,21 @@
         "content": "content---blog-905-488"
       },
       {
-        "content": "content---blogc-39-21d"
-      },
-      {
-        "content": "content---bloged-7-d9e"
-      },
-      {
         "content": "content---blog-39-f-907"
       },
       {
         "content": "content---blog-82-d-c08"
       },
       {
-        "content": "content---blog-826-70a"
+        "content": "content---bloged-7-d9e"
       }
     ],
     "metadata": "metadata---blogb-2-b-df1"
   },
-  "/blog/build-1ea": {
+  "/blog/codeQualityTools-c19": {
     "component": "component---theme-blog-post-pageccc-cab",
     "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-builde-96-bbd"
+    "content": "content---blog-2021-08-04-code-quality-tools-4-a-1-ddb"
   },
   "/blog/diff-0e2": {
     "component": "component---theme-blog-post-pageccc-cab",
@@ -79,7 +85,12 @@
   "/blog/java-bean-478": {
     "component": "component---theme-blog-post-pageccc-cab",
     "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2021-08-03-java-beanc-9-e-fab"
+    "content": "content---blog-java-beanc-9-e-8f2"
+  },
+  "/blog/nativeBase-875": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-native-base-96-f-70a"
   },
   "/blog/NodeJs-27d": {
     "component": "component---theme-blog-post-pageccc-cab",
@@ -89,12 +100,32 @@
   "/blog/online-deployment-d37": {
     "component": "component---theme-blog-post-pageccc-cab",
     "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2021-08-03-online-deployment-24-a-256"
+    "content": "content---blog-online-deployment-24-a-a3f"
+  },
+  "/blog/page/2-186": {
+    "component": "component---theme-blog-list-pagea-6-a-7ba",
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-826-70a"
+      }
+    ],
+    "metadata": "metadata---blog-page-28-eb-625"
+  },
+  "/blog/reactNative-0b2": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-react-native-2-c-5-d54"
   },
   "/blog/sailsJs-78d": {
     "component": "component---theme-blog-post-pageccc-cab",
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-sails-js-9-f-2-32b"
+  },
+  "/blog/start-blazor-04a": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-start-blazore-96-149"
   },
   "/blog/tags-e13": {
     "component": "component---theme-blog-tags-list-page-01-a-d0b",
@@ -140,6 +171,16 @@
       }
     ],
     "metadata": "metadata---blog-tags-blazor-825-bb4"
+  },
+  "/blog/tags/code-quality-b5a": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---bloge-9-d-d41"
+      }
+    ],
+    "metadata": "metadata---blog-tags-code-quality-291-e45"
   },
   "/blog/tags/deployment-874": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
@@ -234,10 +275,13 @@
     ],
     "metadata": "metadata---blog-tags-java-scripta-8-f-6aa"
   },
-  "/blog/tags/js-b15": {
+  "/blog/tags/js-87a": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---bloge-9-d-d41"
+      },
       {
         "content": "content---blog-708-79c"
       },
@@ -259,6 +303,16 @@
       }
     ],
     "metadata": "metadata---blog-tags-methodbe-0-fdd"
+  },
+  "/blog/tags/native-base-45d": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-923-6ab"
+      }
+    ],
+    "metadata": "metadata---blog-tags-native-base-3-e-6-272"
   },
   "/blog/tags/node-js-9a2": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
@@ -289,6 +343,32 @@
       }
     ],
     "metadata": "metadata---blog-tags-parm-82-c-326"
+  },
+  "/blog/tags/react-c80": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-923-6ab"
+      },
+      {
+        "content": "content---blog-9-d-8-1f0"
+      }
+    ],
+    "metadata": "metadata---blog-tags-react-986-5dd"
+  },
+  "/blog/tags/react-native-09f": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-923-6ab"
+      },
+      {
+        "content": "content---blog-9-d-8-1f0"
+      }
+    ],
+    "metadata": "metadata---blog-tags-react-nativeb-9-a-6ef"
   },
   "/blog/tags/require-105": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
@@ -342,6 +422,16 @@
       }
     ],
     "metadata": "metadata---blog-tags-theory-569-ece"
+  },
+  "/blog/tags/tools-e60": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---bloge-9-d-d41"
+      }
+    ],
+    "metadata": "metadata---blog-tags-tools-599-9fe"
   },
   "/blog/tags/var-ade": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
@@ -397,7 +487,7 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-0-0-1-tutorial-extras-translate-your-site-7-a-0-b97"
   },
-  "/docs/next-84b": {
+  "/docs/next-552": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-next-935-7db"
   },
@@ -413,7 +503,23 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-next-docs-menu-810-fd4"
   },
-  "/docs-f40": {
+  "/docs/next/learning-notes/blazor/blazorIntro-1a1": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-learning-notes-blazor-blazor-introe-57-830"
+  },
+  "/docs/next/learning-notes/docusaurus/docusaurusConfig-0b3": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-learning-notes-docusaurus-config-632-bb4"
+  },
+  "/docs/next/learning-notes/docusaurus/docusaurusi18n-fa8": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-learning-notes-docusaurus-i-18-nb-91-291"
+  },
+  "/docs/next/learning-notes/docusaurus/docusaurusIntro-c1b": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-next-learning-notes-docusaurus-introduction-0-a-0-594"
+  },
+  "/docs-8ea": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-38-a-8d5"
   },
@@ -424,5 +530,21 @@
   "/docs/docsMenu-c80": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-docs-menu-4-b-8-ee3"
+  },
+  "/docs/learning-notes/blazor/blazorIntro-b07": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-learning-notes-blazor-blazor-introf-53-b05"
+  },
+  "/docs/learning-notes/docusaurus/docusaurusConfig-4bf": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-learning-notes-docusaurus-docusaurus-configa-21-2f9"
+  },
+  "/docs/learning-notes/docusaurus/docusaurusi18n-60a": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-learning-notes-docusaurus-docusaurusi-18-nda-6-6a2"
+  },
+  "/docs/learning-notes/docusaurus/docusaurusIntro-d06": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-learning-notes-docusaurus-docusaurus-intro-7-b-4-a5b"
   }
 }

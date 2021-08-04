@@ -1,0 +1,27 @@
+{
+  "unversionedId": "learning-notes/docusaurus/docusaurusIntro",
+  "id": "learning-notes/docusaurus/docusaurusIntro",
+  "isDocsHomePage": false,
+  "title": "開始建立Docusaurus",
+  "description": "開始建立Docusaurus",
+  "source": "@site/docs/learning-notes/docusaurus/00-introduction.md",
+  "sourceDirName": "learning-notes/docusaurus",
+  "slug": "/learning-notes/docusaurus/docusaurusIntro",
+  "permalink": "/docs/next/learning-notes/docusaurus/docusaurusIntro",
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "docusaurusIntro",
+    "title": "開始建立Docusaurus"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "開始建立Blazor Application",
+    "permalink": "/docs/next/learning-notes/blazor/blazorIntro"
+  },
+  "next": {
+    "title": "設定docusaurus.config.js",
+    "permalink": "/docs/next/learning-notes/docusaurus/docusaurusConfig"
+  }
+}

@@ -45,12 +45,12 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog','291'),
+    component: ComponentCreator('/blog','1f6'),
     exact: true
   },
   {
-    path: '/blog/build',
-    component: ComponentCreator('/blog/build','1ea'),
+    path: '/blog/codeQualityTools',
+    component: ComponentCreator('/blog/codeQualityTools','c19'),
     exact: true
   },
   {
@@ -74,6 +74,11 @@ export default [
     exact: true
   },
   {
+    path: '/blog/nativeBase',
+    component: ComponentCreator('/blog/nativeBase','875'),
+    exact: true
+  },
+  {
     path: '/blog/NodeJs',
     component: ComponentCreator('/blog/NodeJs','27d'),
     exact: true
@@ -84,8 +89,23 @@ export default [
     exact: true
   },
   {
+    path: '/blog/page/2',
+    component: ComponentCreator('/blog/page/2','186'),
+    exact: true
+  },
+  {
+    path: '/blog/reactNative',
+    component: ComponentCreator('/blog/reactNative','0b2'),
+    exact: true
+  },
+  {
     path: '/blog/sailsJs',
     component: ComponentCreator('/blog/sailsJs','78d'),
+    exact: true
+  },
+  {
+    path: '/blog/start-blazor',
+    component: ComponentCreator('/blog/start-blazor','04a'),
     exact: true
   },
   {
@@ -111,6 +131,11 @@ export default [
   {
     path: '/blog/tags/blazor',
     component: ComponentCreator('/blog/tags/blazor','328'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/code-quality',
+    component: ComponentCreator('/blog/tags/code-quality','b5a'),
     exact: true
   },
   {
@@ -160,12 +185,17 @@ export default [
   },
   {
     path: '/blog/tags/js',
-    component: ComponentCreator('/blog/tags/js','b15'),
+    component: ComponentCreator('/blog/tags/js','87a'),
     exact: true
   },
   {
     path: '/blog/tags/method',
     component: ComponentCreator('/blog/tags/method','b80'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/native-base',
+    component: ComponentCreator('/blog/tags/native-base','45d'),
     exact: true
   },
   {
@@ -181,6 +211,16 @@ export default [
   {
     path: '/blog/tags/parm',
     component: ComponentCreator('/blog/tags/parm','8ca'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/react',
+    component: ComponentCreator('/blog/tags/react','c80'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/react-native',
+    component: ComponentCreator('/blog/tags/react-native','09f'),
     exact: true
   },
   {
@@ -206,6 +246,11 @@ export default [
   {
     path: '/blog/tags/theory',
     component: ComponentCreator('/blog/tags/theory','a04'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/tools',
+    component: ComponentCreator('/blog/tags/tools','e60'),
     exact: true
   },
   {
@@ -280,7 +325,7 @@ export default [
   },
   {
     path: '/docs/next',
-    component: ComponentCreator('/docs/next','84b'),
+    component: ComponentCreator('/docs/next','552'),
     routes: [
       {
         path: '/docs/next/about-me/projects',
@@ -299,12 +344,36 @@ export default [
         component: ComponentCreator('/docs/next/docsMenu','8df'),
         exact: true,
         'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/learning-notes/blazor/blazorIntro',
+        component: ComponentCreator('/docs/next/learning-notes/blazor/blazorIntro','1a1'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/learning-notes/docusaurus/docusaurusConfig',
+        component: ComponentCreator('/docs/next/learning-notes/docusaurus/docusaurusConfig','0b3'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/learning-notes/docusaurus/docusaurusi18n',
+        component: ComponentCreator('/docs/next/learning-notes/docusaurus/docusaurusi18n','fa8'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/next/learning-notes/docusaurus/docusaurusIntro',
+        component: ComponentCreator('/docs/next/learning-notes/docusaurus/docusaurusIntro','c1b'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
       }
     ]
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','f40'),
+    component: ComponentCreator('/docs','8ea'),
     routes: [
       {
         path: '/docs/about-me/who',
@@ -315,6 +384,30 @@ export default [
       {
         path: '/docs/docsMenu',
         component: ComponentCreator('/docs/docsMenu','c80'),
+        exact: true,
+        'sidebar': "version-0.0.2/tutorialSidebar"
+      },
+      {
+        path: '/docs/learning-notes/blazor/blazorIntro',
+        component: ComponentCreator('/docs/learning-notes/blazor/blazorIntro','b07'),
+        exact: true,
+        'sidebar': "version-0.0.2/tutorialSidebar"
+      },
+      {
+        path: '/docs/learning-notes/docusaurus/docusaurusConfig',
+        component: ComponentCreator('/docs/learning-notes/docusaurus/docusaurusConfig','4bf'),
+        exact: true,
+        'sidebar': "version-0.0.2/tutorialSidebar"
+      },
+      {
+        path: '/docs/learning-notes/docusaurus/docusaurusi18n',
+        component: ComponentCreator('/docs/learning-notes/docusaurus/docusaurusi18n','60a'),
+        exact: true,
+        'sidebar': "version-0.0.2/tutorialSidebar"
+      },
+      {
+        path: '/docs/learning-notes/docusaurus/docusaurusIntro',
+        component: ComponentCreator('/docs/learning-notes/docusaurus/docusaurusIntro','d06'),
         exact: true,
         'sidebar': "version-0.0.2/tutorialSidebar"
       }

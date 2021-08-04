@@ -22,11 +22,11 @@
   "readingTime": 0.06,
   "truncated": false,
   "prevItem": {
-    "title": "Java & Bean",
-    "permalink": "/blog/java-bean"
+    "title": "Basic theory",
+    "permalink": "/blog/diff"
   },
   "nextItem": {
-    "title": "How to get GitHub Account Image",
-    "permalink": "/blog/GitHub"
+    "title": "Start Building Blazor application",
+    "permalink": "/blog/start-blazor"
   }
 }

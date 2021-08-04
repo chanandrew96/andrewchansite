@@ -1,0 +1,28 @@
+{
+  "permalink": "/blog/nativeBase",
+  "source": "@site/blog/2021-08-04-native-base.md",
+  "title": "Native Base",
+  "description": "應用UI程式庫 - NativeBase",
+  "date": "2021-08-04T00:00:00.000Z",
+  "formattedDate": "August 4, 2021",
+  "tags": [
+    {
+      "label": "react",
+      "permalink": "/blog/tags/react"
+    },
+    {
+      "label": "reactNative",
+      "permalink": "/blog/tags/react-native"
+    },
+    {
+      "label": "nativeBase",
+      "permalink": "/blog/tags/native-base"
+    }
+  ],
+  "readingTime": 0.555,
+  "truncated": false,
+  "nextItem": {
+    "title": "Code Quality Tools",
+    "permalink": "/blog/codeQualityTools"
+  }
+}

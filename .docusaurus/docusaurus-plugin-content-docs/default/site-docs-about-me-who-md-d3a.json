@@ -19,5 +19,9 @@
   "previous": {
     "title": "My Projects",
     "permalink": "/docs/next/about-me/projects"
+  },
+  "next": {
+    "title": "開始建立Blazor Application",
+    "permalink": "/docs/next/learning-notes/blazor/blazorIntro"
   }
 }

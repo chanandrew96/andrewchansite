@@ -1,5 +1,5 @@
 ---
-slug: build
+slug: start-blazor
 title: Start Building Blazor application
 author: Andrew Chan
 author_title: Analyst Programmer @ ASL

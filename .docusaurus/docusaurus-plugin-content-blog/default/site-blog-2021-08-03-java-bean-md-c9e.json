@@ -18,11 +18,11 @@
   "readingTime": 0.02,
   "truncated": false,
   "prevItem": {
-    "title": "Sails Js",
-    "permalink": "/blog/sailsJs"
+    "title": "Docusaurus",
+    "permalink": "/blog/Docusaurus"
   },
   "nextItem": {
-    "title": "NodeJs related",
-    "permalink": "/blog/NodeJs"
+    "title": "Online Deployment",
+    "permalink": "/blog/online-deployment"
   }
 }

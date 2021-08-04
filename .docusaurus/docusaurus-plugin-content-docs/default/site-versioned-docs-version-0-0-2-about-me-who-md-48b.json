@@ -19,5 +19,9 @@
   "previous": {
     "title": "Documents",
     "permalink": "/docs/docsMenu"
+  },
+  "next": {
+    "title": "開始建立Blazor Application",
+    "permalink": "/docs/learning-notes/blazor/blazorIntro"
   }
 }

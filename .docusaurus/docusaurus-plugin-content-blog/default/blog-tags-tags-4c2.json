@@ -1,10 +1,45 @@
 {
+  "react": {
+    "allTagsPath": "/blog/tags",
+    "slug": "react",
+    "name": "react",
+    "count": 2,
+    "permalink": "/blog/tags/react"
+  },
+  "react-native": {
+    "allTagsPath": "/blog/tags",
+    "slug": "react-native",
+    "name": "reactnative",
+    "count": 2,
+    "permalink": "/blog/tags/react-native"
+  },
+  "native-base": {
+    "allTagsPath": "/blog/tags",
+    "slug": "native-base",
+    "name": "nativebase",
+    "count": 1,
+    "permalink": "/blog/tags/native-base"
+  },
   "js": {
     "allTagsPath": "/blog/tags",
     "slug": "js",
     "name": "js",
-    "count": 3,
+    "count": 4,
     "permalink": "/blog/tags/js"
+  },
+  "code-quality": {
+    "allTagsPath": "/blog/tags",
+    "slug": "code-quality",
+    "name": "code quality",
+    "count": 1,
+    "permalink": "/blog/tags/code-quality"
+  },
+  "tools": {
+    "allTagsPath": "/blog/tags",
+    "slug": "tools",
+    "name": "tools",
+    "count": 1,
+    "permalink": "/blog/tags/tools"
   },
   "docusaurus": {
     "allTagsPath": "/blog/tags",
@@ -26,6 +61,20 @@
     "name": "i18n",
     "count": 1,
     "permalink": "/blog/tags/i-18-n"
+  },
+  "java": {
+    "allTagsPath": "/blog/tags",
+    "slug": "java",
+    "name": "java",
+    "count": 1,
+    "permalink": "/blog/tags/java"
+  },
+  "bean": {
+    "allTagsPath": "/blog/tags",
+    "slug": "bean",
+    "name": "bean",
+    "count": 1,
+    "permalink": "/blog/tags/bean"
   },
   "deployment": {
     "allTagsPath": "/blog/tags",
@@ -61,34 +110,6 @@
     "name": "socketio",
     "count": 1,
     "permalink": "/blog/tags/socket-io"
-  },
-  "java": {
-    "allTagsPath": "/blog/tags",
-    "slug": "java",
-    "name": "java",
-    "count": 1,
-    "permalink": "/blog/tags/java"
-  },
-  "bean": {
-    "allTagsPath": "/blog/tags",
-    "slug": "bean",
-    "name": "bean",
-    "count": 1,
-    "permalink": "/blog/tags/bean"
-  },
-  "node-js": {
-    "allTagsPath": "/blog/tags",
-    "slug": "node-js",
-    "name": "nodejs",
-    "count": 1,
-    "permalink": "/blog/tags/node-js"
-  },
-  "streaming": {
-    "allTagsPath": "/blog/tags",
-    "slug": "streaming",
-    "name": "streaming",
-    "count": 1,
-    "permalink": "/blog/tags/streaming"
   },
   "git-hub": {
     "allTagsPath": "/blog/tags",
@@ -159,6 +180,20 @@
     "name": "method",
     "count": 1,
     "permalink": "/blog/tags/method"
+  },
+  "node-js": {
+    "allTagsPath": "/blog/tags",
+    "slug": "node-js",
+    "name": "nodejs",
+    "count": 1,
+    "permalink": "/blog/tags/node-js"
+  },
+  "streaming": {
+    "allTagsPath": "/blog/tags",
+    "slug": "streaming",
+    "name": "streaming",
+    "count": 1,
+    "permalink": "/blog/tags/streaming"
   },
   "blazor": {
     "allTagsPath": "/blog/tags",

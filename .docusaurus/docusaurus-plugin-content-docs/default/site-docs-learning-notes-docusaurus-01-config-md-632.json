@@ -1,0 +1,27 @@
+{
+  "unversionedId": "learning-notes/docusaurus/docusaurusConfig",
+  "id": "learning-notes/docusaurus/docusaurusConfig",
+  "isDocsHomePage": false,
+  "title": "設定docusaurus.config.js",
+  "description": "設定docusaurus.config.js",
+  "source": "@site/docs/learning-notes/docusaurus/01-config.md",
+  "sourceDirName": "learning-notes/docusaurus",
+  "slug": "/learning-notes/docusaurus/docusaurusConfig",
+  "permalink": "/docs/next/learning-notes/docusaurus/docusaurusConfig",
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "id": "docusaurusConfig",
+    "title": "設定docusaurus.config.js"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "開始建立Docusaurus",
+    "permalink": "/docs/next/learning-notes/docusaurus/docusaurusIntro"
+  },
+  "next": {
+    "title": "設定Docusaurus i18n",
+    "permalink": "/docs/next/learning-notes/docusaurus/docusaurusi18n"
+  }
+}

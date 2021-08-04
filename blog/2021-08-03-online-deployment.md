@@ -38,3 +38,9 @@ Vercel其實是我在使用CodeSandbox時發現的，以往也沒有用過
 - [Expo](https://docs.expo.dev/)  
 React Native官方採用的模擬器  
 因比較少開發React Native，所以也沒有太多的評價，日後會再補充  
+
+- [Appetize.io](https://appetize.io/)  
+如果想測試手機開發的程式，Appetize.io是個不錯的選擇  
+它提供了一個月100分鐘的免費方案，如果想要分享給別人測試應該是足夠的  
+[彼得潘的 iOS App Neverland - 利用 appetize.io 分享 iOS App，從網頁就能測試 ~](https://medium.com/%E5%BD%BC%E5%BE%97%E6%BD%98%E7%9A%84-swift-ios-app-%E9%96%8B%E7%99%BC%E5%95%8F%E9%A1%8C%E8%A7%A3%E7%AD%94%E9%9B%86/%E5%88%A9%E7%94%A8-appetize-io-%E5%88%86%E4%BA%AB-ios-app-%E5%BE%9E%E7%B6%B2%E9%A0%81%E5%B0%B1%E8%83%BD%E6%B8%AC%E8%A9%A6-f4517c2af82c)  
+

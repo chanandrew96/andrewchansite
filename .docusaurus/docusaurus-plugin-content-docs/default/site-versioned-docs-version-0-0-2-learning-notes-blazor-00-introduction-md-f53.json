@@ -1,0 +1,27 @@
+{
+  "unversionedId": "learning-notes/blazor/blazorIntro",
+  "id": "version-0.0.2/learning-notes/blazor/blazorIntro",
+  "isDocsHomePage": false,
+  "title": "開始建立Blazor Application",
+  "description": "開始建立Blazor Application",
+  "source": "@site/versioned_docs/version-0.0.2/learning-notes/blazor/00-introduction.md",
+  "sourceDirName": "learning-notes/blazor",
+  "slug": "/learning-notes/blazor/blazorIntro",
+  "permalink": "/docs/learning-notes/blazor/blazorIntro",
+  "version": "0.0.2",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "blazorIntro",
+    "title": "開始建立Blazor Application"
+  },
+  "sidebar": "version-0.0.2/tutorialSidebar",
+  "previous": {
+    "title": "Who am I?",
+    "permalink": "/docs/about-me/who"
+  },
+  "next": {
+    "title": "開始建立Docusaurus",
+    "permalink": "/docs/learning-notes/docusaurus/docusaurusIntro"
+  }
+}
