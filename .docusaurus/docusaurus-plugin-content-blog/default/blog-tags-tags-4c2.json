@@ -1,4 +1,39 @@
 {
+  "java-script": {
+    "allTagsPath": "/blog/tags",
+    "slug": "java-script",
+    "name": "javascript",
+    "count": 2,
+    "permalink": "/blog/tags/java-script"
+  },
+  "es-lint": {
+    "allTagsPath": "/blog/tags",
+    "slug": "es-lint",
+    "name": "eslint",
+    "count": 1,
+    "permalink": "/blog/tags/es-lint"
+  },
+  "husky": {
+    "allTagsPath": "/blog/tags",
+    "slug": "husky",
+    "name": "husky",
+    "count": 1,
+    "permalink": "/blog/tags/husky"
+  },
+  "linter": {
+    "allTagsPath": "/blog/tags",
+    "slug": "linter",
+    "name": "linter",
+    "count": 1,
+    "permalink": "/blog/tags/linter"
+  },
+  "lint-staged": {
+    "allTagsPath": "/blog/tags",
+    "slug": "lint-staged",
+    "name": "lint-staged",
+    "count": 1,
+    "permalink": "/blog/tags/lint-staged"
+  },
   "js": {
     "allTagsPath": "/blog/tags",
     "slug": "js",
@@ -47,13 +82,6 @@
     "name": "docusaurus",
     "count": 2,
     "permalink": "/blog/tags/docusaurus"
-  },
-  "java-script": {
-    "allTagsPath": "/blog/tags",
-    "slug": "java-script",
-    "name": "javascript",
-    "count": 1,
-    "permalink": "/blog/tags/java-script"
   },
   "i-18-n": {
     "allTagsPath": "/blog/tags",
@@ -111,6 +139,20 @@
     "count": 1,
     "permalink": "/blog/tags/socket-io"
   },
+  "node-js": {
+    "allTagsPath": "/blog/tags",
+    "slug": "node-js",
+    "name": "nodejs",
+    "count": 1,
+    "permalink": "/blog/tags/node-js"
+  },
+  "streaming": {
+    "allTagsPath": "/blog/tags",
+    "slug": "streaming",
+    "name": "streaming",
+    "count": 1,
+    "permalink": "/blog/tags/streaming"
+  },
   "import": {
     "allTagsPath": "/blog/tags",
     "slug": "import",
@@ -167,6 +209,13 @@
     "count": 1,
     "permalink": "/blog/tags/method"
   },
+  "blazor": {
+    "allTagsPath": "/blog/tags",
+    "slug": "blazor",
+    "name": "blazor",
+    "count": 1,
+    "permalink": "/blog/tags/blazor"
+  },
   "git-hub": {
     "allTagsPath": "/blog/tags",
     "slug": "git-hub",
@@ -180,26 +229,5 @@
     "name": "avatars",
     "count": 1,
     "permalink": "/blog/tags/avatars"
-  },
-  "node-js": {
-    "allTagsPath": "/blog/tags",
-    "slug": "node-js",
-    "name": "nodejs",
-    "count": 1,
-    "permalink": "/blog/tags/node-js"
-  },
-  "streaming": {
-    "allTagsPath": "/blog/tags",
-    "slug": "streaming",
-    "name": "streaming",
-    "count": 1,
-    "permalink": "/blog/tags/streaming"
-  },
-  "blazor": {
-    "allTagsPath": "/blog/tags",
-    "slug": "blazor",
-    "name": "blazor",
-    "count": 1,
-    "permalink": "/blog/tags/blazor"
   }
 }

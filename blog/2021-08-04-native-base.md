@@ -14,9 +14,9 @@ tags: [react, reactNative, nativeBase]
 ### 安裝依賴  
 使用指令 
 ```
-npm install native-base styled-components styled-system 
 expo install react-native-svg
 expo install react-native-safe-area-context
+npm install native-base styled-components styled-system 
 ```  
 > :warning:注意：如果你正在運行安裝目的地的ReactNative專案會引致安裝失敗  
 
@@ -57,6 +57,11 @@ expo build:ios
 或者你可以到[Expo Turtle Queues](https://expo.dev/turtle-status)查看當前的隊列  
 當構建完成後，你可以在 ` Builds ` 的頁面中找到對應平台的紀錄  
 點入對應平台的紀錄後，你可以下載構建完的包並安裝到你的模擬器中  
+
+### 在Vercel上部署  
+[官方文件](https://docs.expo.dev/distribution/publishing-websites/#vercel)  
+要部署Web版本到Vercel上，必須先確保 ` expo-cli ` 已包括了在 ` package.json ` 內  
+在部署的頁面上，連結GitHub上的專案，Framework Preset選擇Other，Build Command輸入 ` expo build:web `，Output Directory輸入 ` web-build `  
 
 ### 例子  
 以上的步驟及程式部署到了[Expo](https://expo.dev/accounts/chanandrew96/projects/reactNativeTutorial)  

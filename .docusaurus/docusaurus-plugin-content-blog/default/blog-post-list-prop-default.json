@@ -2,24 +2,24 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "ESLint",
+      "permalink": "/blog/eslint"
+    },
+    {
+      "title": "Husky",
+      "permalink": "/blog/husky"
+    },
+    {
+      "title": "Lint-Staged",
+      "permalink": "/blog/lintStaged"
+    },
+    {
       "title": "Code Quality Tools",
       "permalink": "/blog/codeQualityTools"
     },
     {
       "title": "Native Base",
       "permalink": "/blog/nativeBase"
-    },
-    {
-      "title": "React Native",
-      "permalink": "/blog/reactNative"
-    },
-    {
-      "title": "Docusaurus",
-      "permalink": "/blog/Docusaurus"
-    },
-    {
-      "title": "Java & Bean",
-      "permalink": "/blog/java-bean"
     }
   ]
 }

@@ -45,7 +45,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog','2fc'),
+    component: ComponentCreator('/blog','510'),
     exact: true
   },
   {
@@ -64,13 +64,28 @@ export default [
     exact: true
   },
   {
+    path: '/blog/eslint',
+    component: ComponentCreator('/blog/eslint','d99'),
+    exact: true
+  },
+  {
     path: '/blog/GitHub',
     component: ComponentCreator('/blog/GitHub','970'),
     exact: true
   },
   {
+    path: '/blog/husky',
+    component: ComponentCreator('/blog/husky','246'),
+    exact: true
+  },
+  {
     path: '/blog/java-bean',
     component: ComponentCreator('/blog/java-bean','478'),
+    exact: true
+  },
+  {
+    path: '/blog/lintStaged',
+    component: ComponentCreator('/blog/lintStaged','21d'),
     exact: true
   },
   {
@@ -90,7 +105,7 @@ export default [
   },
   {
     path: '/blog/page/2',
-    component: ComponentCreator('/blog/page/2','186'),
+    component: ComponentCreator('/blog/page/2','bfc'),
     exact: true
   },
   {
@@ -149,6 +164,11 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/es-lint',
+    component: ComponentCreator('/blog/tags/es-lint','dd5'),
+    exact: true
+  },
+  {
     path: '/blog/tags/free',
     component: ComponentCreator('/blog/tags/free','c3a'),
     exact: true
@@ -161,6 +181,11 @@ export default [
   {
     path: '/blog/tags/git-hub',
     component: ComponentCreator('/blog/tags/git-hub','94e'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/husky',
+    component: ComponentCreator('/blog/tags/husky','4f0'),
     exact: true
   },
   {
@@ -180,12 +205,22 @@ export default [
   },
   {
     path: '/blog/tags/java-script',
-    component: ComponentCreator('/blog/tags/java-script','209'),
+    component: ComponentCreator('/blog/tags/java-script','f74'),
     exact: true
   },
   {
     path: '/blog/tags/js',
     component: ComponentCreator('/blog/tags/js','87a'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/lint-staged',
+    component: ComponentCreator('/blog/tags/lint-staged','d25'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/linter',
+    component: ComponentCreator('/blog/tags/linter','59e'),
     exact: true
   },
   {

@@ -22,11 +22,11 @@
   "readingTime": 0.06,
   "truncated": false,
   "prevItem": {
-    "title": "How to get GitHub Account Image",
-    "permalink": "/blog/GitHub"
+    "title": "Sails Js",
+    "permalink": "/blog/sailsJs"
   },
   "nextItem": {
-    "title": "Start Building Blazor application",
-    "permalink": "/blog/start-blazor"
+    "title": "Basic theory",
+    "permalink": "/blog/diff"
   }
 }

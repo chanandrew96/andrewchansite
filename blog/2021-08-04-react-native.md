@@ -43,6 +43,8 @@ npm run ios
 以上的步驟及程式部署到了[Expo](https://expo.dev/accounts/chanandrew96/projects/reactNativeTutorial)  
 有興趣可以到Expo上查看，也可以到[GitHub](https://github.com/chanandrew96/reactNativeTutorial)中查看源碼  
 
+### [部署至你的Expo](/blog/nativeBase#%E9%83%A8%E7%BD%B2%E8%87%B3%E4%BD%A0%E7%9A%84expo)  
+部署可以到Native Base的Blog中查看  
 
 ### 新增登入  
 [How to Add Social Login to a React Native app](https://javascript.plainenglish.io/react-native-social-login-2a7945fa19)  

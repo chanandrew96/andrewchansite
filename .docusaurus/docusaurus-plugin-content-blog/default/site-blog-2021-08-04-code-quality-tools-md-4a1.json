@@ -21,6 +21,10 @@
   ],
   "readingTime": 0.11,
   "truncated": false,
+  "prevItem": {
+    "title": "Lint-Staged",
+    "permalink": "/blog/lintStaged"
+  },
   "nextItem": {
     "title": "Native Base",
     "permalink": "/blog/nativeBase"

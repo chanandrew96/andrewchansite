@@ -46,11 +46,11 @@
   "readingTime": 2.445,
   "truncated": false,
   "prevItem": {
-    "title": "Sails Js",
-    "permalink": "/blog/sailsJs"
+    "title": "NodeJs related",
+    "permalink": "/blog/NodeJs"
   },
   "nextItem": {
-    "title": "How to get GitHub Account Image",
-    "permalink": "/blog/GitHub"
+    "title": "Start Building Blazor application",
+    "permalink": "/blog/start-blazor"
   }
 }

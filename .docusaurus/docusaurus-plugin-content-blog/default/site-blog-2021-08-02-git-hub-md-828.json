@@ -18,11 +18,7 @@
   "readingTime": 0.25,
   "truncated": false,
   "prevItem": {
-    "title": "Basic theory",
-    "permalink": "/blog/diff"
-  },
-  "nextItem": {
-    "title": "NodeJs related",
-    "permalink": "/blog/NodeJs"
+    "title": "Start Building Blazor application",
+    "permalink": "/blog/start-blazor"
   }
 }

@@ -18,7 +18,11 @@
   "readingTime": 1.29,
   "truncated": false,
   "prevItem": {
-    "title": "NodeJs related",
-    "permalink": "/blog/NodeJs"
+    "title": "Basic theory",
+    "permalink": "/blog/diff"
+  },
+  "nextItem": {
+    "title": "How to get GitHub Account Image",
+    "permalink": "/blog/GitHub"
   }
 }
