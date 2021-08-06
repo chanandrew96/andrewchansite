@@ -1,0 +1,23 @@
+{
+  "unversionedId": "docsMenu",
+  "id": "version-0.0.2/docsMenu",
+  "isDocsHomePage": false,
+  "title": "Documents",
+  "description": "You may checkout some document I wrote down when I learning new stuff!",
+  "source": "@site/versioned_docs/version-0.0.2/docsMenu.md",
+  "sourceDirName": ".",
+  "slug": "/docsMenu",
+  "permalink": "/docs/docsMenu",
+  "version": "0.0.2",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "docsMenu",
+    "title": "Documents"
+  },
+  "sidebar": "version-0.0.2/tutorialSidebar",
+  "next": {
+    "title": "Who am I?",
+    "permalink": "/docs/about-me/who"
+  }
+}

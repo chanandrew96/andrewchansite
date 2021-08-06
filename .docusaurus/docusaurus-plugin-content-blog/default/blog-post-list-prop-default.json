@@ -2,16 +2,24 @@
   "title": "Recent posts",
   "items": [
     {
-      "title": "Welcome",
-      "permalink": "/blog/welcome"
+      "title": "ESLint",
+      "permalink": "/blog/eslint"
     },
     {
-      "title": "Hello",
-      "permalink": "/blog/hello-world"
+      "title": "Husky",
+      "permalink": "/blog/husky"
     },
     {
-      "title": "Hola",
-      "permalink": "/blog/hola"
+      "title": "Lint-Staged",
+      "permalink": "/blog/lintStaged"
+    },
+    {
+      "title": "Code Quality Tools",
+      "permalink": "/blog/codeQualityTools"
+    },
+    {
+      "title": "Native Base",
+      "permalink": "/blog/nativeBase"
     }
   ]
 }

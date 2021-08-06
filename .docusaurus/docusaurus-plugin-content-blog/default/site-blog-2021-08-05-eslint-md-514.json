@@ -1,0 +1,24 @@
+{
+  "permalink": "/blog/eslint",
+  "source": "@site/blog/2021-08-05-eslint.md",
+  "title": "ESLint",
+  "description": "ESLint",
+  "date": "2021-08-05T00:00:00.000Z",
+  "formattedDate": "August 5, 2021",
+  "tags": [
+    {
+      "label": "JavaScript",
+      "permalink": "/blog/tags/java-script"
+    },
+    {
+      "label": "ESLint",
+      "permalink": "/blog/tags/es-lint"
+    }
+  ],
+  "readingTime": 0.88,
+  "truncated": false,
+  "nextItem": {
+    "title": "Husky",
+    "permalink": "/blog/husky"
+  }
+}

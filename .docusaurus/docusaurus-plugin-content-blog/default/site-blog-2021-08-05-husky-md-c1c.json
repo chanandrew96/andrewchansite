@@ -1,0 +1,24 @@
+{
+  "permalink": "/blog/husky",
+  "source": "@site/blog/2021-08-05-husky.md",
+  "title": "Husky",
+  "description": "Husky",
+  "date": "2021-08-05T00:00:00.000Z",
+  "formattedDate": "August 5, 2021",
+  "tags": [
+    {
+      "label": "Husky",
+      "permalink": "/blog/tags/husky"
+    }
+  ],
+  "readingTime": 0.53,
+  "truncated": false,
+  "prevItem": {
+    "title": "ESLint",
+    "permalink": "/blog/eslint"
+  },
+  "nextItem": {
+    "title": "Lint-Staged",
+    "permalink": "/blog/lintStaged"
+  }
+}

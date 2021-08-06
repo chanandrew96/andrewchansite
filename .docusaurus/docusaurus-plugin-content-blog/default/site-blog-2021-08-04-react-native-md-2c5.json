@@ -1,0 +1,28 @@
+{
+  "permalink": "/blog/reactNative",
+  "source": "@site/blog/2021-08-04-react-native.md",
+  "title": "React Native",
+  "description": "依賴及設定",
+  "date": "2021-08-04T00:00:00.000Z",
+  "formattedDate": "August 4, 2021",
+  "tags": [
+    {
+      "label": "react",
+      "permalink": "/blog/tags/react"
+    },
+    {
+      "label": "reactNative",
+      "permalink": "/blog/tags/react-native"
+    }
+  ],
+  "readingTime": 0.465,
+  "truncated": false,
+  "prevItem": {
+    "title": "Native Base",
+    "permalink": "/blog/nativeBase"
+  },
+  "nextItem": {
+    "title": "Docusaurus",
+    "permalink": "/blog/Docusaurus"
+  }
+}

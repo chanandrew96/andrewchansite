@@ -1,0 +1,25 @@
+{
+  "unversionedId": "tutorial-basics/markdown-features",
+  "id": "version-0.0.1/tutorial-basics/markdown-features",
+  "isDocsHomePage": false,
+  "title": "Markdown Features",
+  "description": "Docusaurus supports Markdown and a few additional features.",
+  "source": "@site/versioned_docs/version-0.0.1/tutorial-basics/markdown-features.mdx",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/markdown-features",
+  "permalink": "/docs/0.0.1/tutorial-basics/markdown-features",
+  "version": "0.0.1",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "version-0.0.1/tutorialSidebar",
+  "previous": {
+    "title": "Create a Blog Post",
+    "permalink": "/docs/0.0.1/tutorial-basics/create-a-blog-post"
+  },
+  "next": {
+    "title": "Deploy your site",
+    "permalink": "/docs/0.0.1/tutorial-basics/deploy-your-site"
+  }
+}

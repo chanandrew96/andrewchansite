@@ -5,21 +5,504 @@
         {
           "versionName": "current",
           "versionLabel": "Next",
-          "versionPath": "/docs",
-          "versionEditUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs",
-          "versionEditUrlLocalized": "https://github.com/facebook/docusaurus/edit/master/website/i18n/en/docusaurus-plugin-content-docs/current",
-          "versionBanner": "none",
-          "isLast": true,
-          "routePriority": -1,
-          "sidebarFilePath": "C:\\Users\\user\\Desktop\\Andrew\\Project\\docusaurus\\andrewchansite\\sidebars.js",
-          "contentPath": "C:\\Users\\user\\Desktop\\Andrew\\Project\\docusaurus\\andrewchansite\\docs",
-          "contentPathLocalized": "C:\\Users\\user\\Desktop\\Andrew\\Project\\docusaurus\\andrewchansite\\i18n\\en\\docusaurus-plugin-content-docs\\current",
-          "mainDocId": "intro",
+          "versionPath": "/docs/next",
+          "versionBanner": "unreleased",
+          "isLast": false,
+          "sidebarFilePath": "C:\\Users\\user\\Desktop\\Andrew\\Project\\docusaurus\\andrewchansite_Github\\sidebars.js",
+          "contentPath": "C:\\Users\\user\\Desktop\\Andrew\\Project\\docusaurus\\andrewchansite_Github\\docs",
+          "contentPathLocalized": "C:\\Users\\user\\Desktop\\Andrew\\Project\\docusaurus\\andrewchansite_Github\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "mainDocId": "docsMenu",
           "sidebars": {
             "tutorialSidebar": [
               {
                 "type": "doc",
-                "id": "intro"
+                "id": "docsMenu"
+              },
+              {
+                "type": "category",
+                "label": "about-me",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "about-me/projects"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "about-me/who"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "learning-notes",
+                "items": [
+                  {
+                    "type": "category",
+                    "label": "blazor",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "learning-notes/blazor/blazorIntro"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "docusaurus",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "learning-notes/docusaurus/docusaurusIntro"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "learning-notes/docusaurus/docusaurusConfig"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "learning-notes/docusaurus/docusaurusi18n"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ]
+          },
+          "docs": [
+            {
+              "unversionedId": "about-me/projects",
+              "id": "about-me/projects",
+              "isDocsHomePage": false,
+              "title": "My Projects",
+              "description": "Project (Career)",
+              "source": "@site/docs/about-me/projects.md",
+              "sourceDirName": "about-me",
+              "slug": "/about-me/projects",
+              "permalink": "/docs/next/about-me/projects",
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "id": "projects",
+                "title": "My Projects"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Documents",
+                "permalink": "/docs/next/docsMenu"
+              },
+              "next": {
+                "title": "Who am I?",
+                "permalink": "/docs/next/about-me/who"
+              }
+            },
+            {
+              "unversionedId": "about-me/who",
+              "id": "about-me/who",
+              "isDocsHomePage": false,
+              "title": "Who am I?",
+              "description": "So who am I?",
+              "source": "@site/docs/about-me/who.md",
+              "sourceDirName": "about-me",
+              "slug": "/about-me/who",
+              "permalink": "/docs/next/about-me/who",
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "id": "who",
+                "title": "Who am I?"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "My Projects",
+                "permalink": "/docs/next/about-me/projects"
+              },
+              "next": {
+                "title": "開始建立Blazor Application",
+                "permalink": "/docs/next/learning-notes/blazor/blazorIntro"
+              }
+            },
+            {
+              "unversionedId": "docsMenu",
+              "id": "docsMenu",
+              "isDocsHomePage": false,
+              "title": "Documents",
+              "description": "You may checkout some document I wrote down when I learning new stuff!",
+              "source": "@site/docs/docsMenu.md",
+              "sourceDirName": ".",
+              "slug": "/docsMenu",
+              "permalink": "/docs/next/docsMenu",
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "id": "docsMenu",
+                "title": "Documents"
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "My Projects",
+                "permalink": "/docs/next/about-me/projects"
+              }
+            },
+            {
+              "unversionedId": "learning-notes/blazor/blazorIntro",
+              "id": "learning-notes/blazor/blazorIntro",
+              "isDocsHomePage": false,
+              "title": "開始建立Blazor Application",
+              "description": "開始建立Blazor Application",
+              "source": "@site/docs/learning-notes/blazor/00-introduction.md",
+              "sourceDirName": "learning-notes/blazor",
+              "slug": "/learning-notes/blazor/blazorIntro",
+              "permalink": "/docs/next/learning-notes/blazor/blazorIntro",
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "id": "blazorIntro",
+                "title": "開始建立Blazor Application"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Who am I?",
+                "permalink": "/docs/next/about-me/who"
+              },
+              "next": {
+                "title": "開始建立Docusaurus",
+                "permalink": "/docs/next/learning-notes/docusaurus/docusaurusIntro"
+              }
+            },
+            {
+              "unversionedId": "learning-notes/docusaurus/docusaurusConfig",
+              "id": "learning-notes/docusaurus/docusaurusConfig",
+              "isDocsHomePage": false,
+              "title": "設定docusaurus.config.js",
+              "description": "設定docusaurus.config.js",
+              "source": "@site/docs/learning-notes/docusaurus/01-config.md",
+              "sourceDirName": "learning-notes/docusaurus",
+              "slug": "/learning-notes/docusaurus/docusaurusConfig",
+              "permalink": "/docs/next/learning-notes/docusaurus/docusaurusConfig",
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "id": "docusaurusConfig",
+                "title": "設定docusaurus.config.js"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "開始建立Docusaurus",
+                "permalink": "/docs/next/learning-notes/docusaurus/docusaurusIntro"
+              },
+              "next": {
+                "title": "設定Docusaurus i18n",
+                "permalink": "/docs/next/learning-notes/docusaurus/docusaurusi18n"
+              }
+            },
+            {
+              "unversionedId": "learning-notes/docusaurus/docusaurusi18n",
+              "id": "learning-notes/docusaurus/docusaurusi18n",
+              "isDocsHomePage": false,
+              "title": "設定Docusaurus i18n",
+              "description": "設定Docusaurus i18n",
+              "source": "@site/docs/learning-notes/docusaurus/02-i18n.md",
+              "sourceDirName": "learning-notes/docusaurus",
+              "slug": "/learning-notes/docusaurus/docusaurusi18n",
+              "permalink": "/docs/next/learning-notes/docusaurus/docusaurusi18n",
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "id": "docusaurusi18n",
+                "title": "設定Docusaurus i18n"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "設定docusaurus.config.js",
+                "permalink": "/docs/next/learning-notes/docusaurus/docusaurusConfig"
+              }
+            },
+            {
+              "unversionedId": "learning-notes/docusaurus/docusaurusIntro",
+              "id": "learning-notes/docusaurus/docusaurusIntro",
+              "isDocsHomePage": false,
+              "title": "開始建立Docusaurus",
+              "description": "開始建立Docusaurus",
+              "source": "@site/docs/learning-notes/docusaurus/00-introduction.md",
+              "sourceDirName": "learning-notes/docusaurus",
+              "slug": "/learning-notes/docusaurus/docusaurusIntro",
+              "permalink": "/docs/next/learning-notes/docusaurus/docusaurusIntro",
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "id": "docusaurusIntro",
+                "title": "開始建立Docusaurus"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "開始建立Blazor Application",
+                "permalink": "/docs/next/learning-notes/blazor/blazorIntro"
+              },
+              "next": {
+                "title": "設定docusaurus.config.js",
+                "permalink": "/docs/next/learning-notes/docusaurus/docusaurusConfig"
+              }
+            }
+          ]
+        },
+        {
+          "versionName": "0.0.2",
+          "versionLabel": "0.0.2",
+          "versionPath": "/docs",
+          "versionBanner": "none",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "C:\\Users\\user\\Desktop\\Andrew\\Project\\docusaurus\\andrewchansite_Github\\versioned_sidebars\\version-0.0.2-sidebars.json",
+          "contentPath": "C:\\Users\\user\\Desktop\\Andrew\\Project\\docusaurus\\andrewchansite_Github\\versioned_docs\\version-0.0.2",
+          "contentPathLocalized": "C:\\Users\\user\\Desktop\\Andrew\\Project\\docusaurus\\andrewchansite_Github\\i18n\\en\\docusaurus-plugin-content-docs\\version-0.0.2",
+          "mainDocId": "docsMenu",
+          "sidebars": {
+            "version-0.0.2/tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "version-0.0.2/docsMenu"
+              },
+              {
+                "type": "category",
+                "label": "about-me",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "version-0.0.2/about-me/who"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "learning-notes",
+                "items": [
+                  {
+                    "type": "category",
+                    "label": "blazor",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "version-0.0.2/learning-notes/blazor/blazorIntro"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "docusaurus",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "version-0.0.2/learning-notes/docusaurus/docusaurusIntro"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "version-0.0.2/learning-notes/docusaurus/docusaurusConfig"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "version-0.0.2/learning-notes/docusaurus/docusaurusi18n"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ]
+          },
+          "docs": [
+            {
+              "unversionedId": "about-me/who",
+              "id": "version-0.0.2/about-me/who",
+              "isDocsHomePage": false,
+              "title": "Who am I?",
+              "description": "So who am I?",
+              "source": "@site/versioned_docs/version-0.0.2/about-me/who.md",
+              "sourceDirName": "about-me",
+              "slug": "/about-me/who",
+              "permalink": "/docs/about-me/who",
+              "version": "0.0.2",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "id": "who",
+                "title": "Who am I?"
+              },
+              "sidebar": "version-0.0.2/tutorialSidebar",
+              "previous": {
+                "title": "Documents",
+                "permalink": "/docs/docsMenu"
+              },
+              "next": {
+                "title": "開始建立Blazor Application",
+                "permalink": "/docs/learning-notes/blazor/blazorIntro"
+              }
+            },
+            {
+              "unversionedId": "docsMenu",
+              "id": "version-0.0.2/docsMenu",
+              "isDocsHomePage": false,
+              "title": "Documents",
+              "description": "You may checkout some document I wrote down when I learning new stuff!",
+              "source": "@site/versioned_docs/version-0.0.2/docsMenu.md",
+              "sourceDirName": ".",
+              "slug": "/docsMenu",
+              "permalink": "/docs/docsMenu",
+              "version": "0.0.2",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "id": "docsMenu",
+                "title": "Documents"
+              },
+              "sidebar": "version-0.0.2/tutorialSidebar",
+              "next": {
+                "title": "Who am I?",
+                "permalink": "/docs/about-me/who"
+              }
+            },
+            {
+              "unversionedId": "learning-notes/blazor/blazorIntro",
+              "id": "version-0.0.2/learning-notes/blazor/blazorIntro",
+              "isDocsHomePage": false,
+              "title": "開始建立Blazor Application",
+              "description": "開始建立Blazor Application",
+              "source": "@site/versioned_docs/version-0.0.2/learning-notes/blazor/00-introduction.md",
+              "sourceDirName": "learning-notes/blazor",
+              "slug": "/learning-notes/blazor/blazorIntro",
+              "permalink": "/docs/learning-notes/blazor/blazorIntro",
+              "version": "0.0.2",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "id": "blazorIntro",
+                "title": "開始建立Blazor Application"
+              },
+              "sidebar": "version-0.0.2/tutorialSidebar",
+              "previous": {
+                "title": "Who am I?",
+                "permalink": "/docs/about-me/who"
+              },
+              "next": {
+                "title": "開始建立Docusaurus",
+                "permalink": "/docs/learning-notes/docusaurus/docusaurusIntro"
+              }
+            },
+            {
+              "unversionedId": "learning-notes/docusaurus/docusaurusConfig",
+              "id": "version-0.0.2/learning-notes/docusaurus/docusaurusConfig",
+              "isDocsHomePage": false,
+              "title": "設定docusaurus.config.js",
+              "description": "設定docusaurus.config.js",
+              "source": "@site/versioned_docs/version-0.0.2/learning-notes/docusaurus/01-config.md",
+              "sourceDirName": "learning-notes/docusaurus",
+              "slug": "/learning-notes/docusaurus/docusaurusConfig",
+              "permalink": "/docs/learning-notes/docusaurus/docusaurusConfig",
+              "version": "0.0.2",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "id": "docusaurusConfig",
+                "title": "設定docusaurus.config.js"
+              },
+              "sidebar": "version-0.0.2/tutorialSidebar",
+              "previous": {
+                "title": "開始建立Docusaurus",
+                "permalink": "/docs/learning-notes/docusaurus/docusaurusIntro"
+              },
+              "next": {
+                "title": "設定Docusaurus i18n",
+                "permalink": "/docs/learning-notes/docusaurus/docusaurusi18n"
+              }
+            },
+            {
+              "unversionedId": "learning-notes/docusaurus/docusaurusi18n",
+              "id": "version-0.0.2/learning-notes/docusaurus/docusaurusi18n",
+              "isDocsHomePage": false,
+              "title": "設定Docusaurus i18n",
+              "description": "設定Docusaurus i18n",
+              "source": "@site/versioned_docs/version-0.0.2/learning-notes/docusaurus/02-i18n.md",
+              "sourceDirName": "learning-notes/docusaurus",
+              "slug": "/learning-notes/docusaurus/docusaurusi18n",
+              "permalink": "/docs/learning-notes/docusaurus/docusaurusi18n",
+              "version": "0.0.2",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "id": "docusaurusi18n",
+                "title": "設定Docusaurus i18n"
+              },
+              "sidebar": "version-0.0.2/tutorialSidebar",
+              "previous": {
+                "title": "設定docusaurus.config.js",
+                "permalink": "/docs/learning-notes/docusaurus/docusaurusConfig"
+              }
+            },
+            {
+              "unversionedId": "learning-notes/docusaurus/docusaurusIntro",
+              "id": "version-0.0.2/learning-notes/docusaurus/docusaurusIntro",
+              "isDocsHomePage": false,
+              "title": "開始建立Docusaurus",
+              "description": "開始建立Docusaurus",
+              "source": "@site/versioned_docs/version-0.0.2/learning-notes/docusaurus/00-introduction.md",
+              "sourceDirName": "learning-notes/docusaurus",
+              "slug": "/learning-notes/docusaurus/docusaurusIntro",
+              "permalink": "/docs/learning-notes/docusaurus/docusaurusIntro",
+              "version": "0.0.2",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "id": "docusaurusIntro",
+                "title": "開始建立Docusaurus"
+              },
+              "sidebar": "version-0.0.2/tutorialSidebar",
+              "previous": {
+                "title": "開始建立Blazor Application",
+                "permalink": "/docs/learning-notes/blazor/blazorIntro"
+              },
+              "next": {
+                "title": "設定docusaurus.config.js",
+                "permalink": "/docs/learning-notes/docusaurus/docusaurusConfig"
+              }
+            }
+          ]
+        },
+        {
+          "versionName": "0.0.1",
+          "versionLabel": "0.0.1",
+          "versionPath": "/docs/0.0.1",
+          "versionBanner": "unmaintained",
+          "isLast": false,
+          "sidebarFilePath": "C:\\Users\\user\\Desktop\\Andrew\\Project\\docusaurus\\andrewchansite_Github\\versioned_sidebars\\version-0.0.1-sidebars.json",
+          "contentPath": "C:\\Users\\user\\Desktop\\Andrew\\Project\\docusaurus\\andrewchansite_Github\\versioned_docs\\version-0.0.1",
+          "contentPathLocalized": "C:\\Users\\user\\Desktop\\Andrew\\Project\\docusaurus\\andrewchansite_Github\\i18n\\en\\docusaurus-plugin-content-docs\\version-0.0.1",
+          "mainDocId": "intro",
+          "sidebars": {
+            "version-0.0.1/tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "version-0.0.1/intro"
               },
               {
                 "type": "category",
@@ -27,27 +510,27 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "tutorial-basics/create-a-page"
+                    "id": "version-0.0.1/tutorial-basics/create-a-page"
                   },
                   {
                     "type": "doc",
-                    "id": "tutorial-basics/create-a-document"
+                    "id": "version-0.0.1/tutorial-basics/create-a-document"
                   },
                   {
                     "type": "doc",
-                    "id": "tutorial-basics/create-a-blog-post"
+                    "id": "version-0.0.1/tutorial-basics/create-a-blog-post"
                   },
                   {
                     "type": "doc",
-                    "id": "tutorial-basics/markdown-features"
+                    "id": "version-0.0.1/tutorial-basics/markdown-features"
                   },
                   {
                     "type": "doc",
-                    "id": "tutorial-basics/deploy-your-site"
+                    "id": "version-0.0.1/tutorial-basics/deploy-your-site"
                   },
                   {
                     "type": "doc",
-                    "id": "tutorial-basics/congratulations"
+                    "id": "version-0.0.1/tutorial-basics/congratulations"
                   }
                 ],
                 "collapsed": true,
@@ -59,11 +542,11 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "tutorial-extras/manage-docs-versions"
+                    "id": "version-0.0.1/tutorial-extras/manage-docs-versions"
                   },
                   {
                     "type": "doc",
-                    "id": "tutorial-extras/translate-your-site"
+                    "id": "version-0.0.1/tutorial-extras/translate-your-site"
                   }
                 ],
                 "collapsed": true,
@@ -74,228 +557,219 @@
           "docs": [
             {
               "unversionedId": "intro",
-              "id": "intro",
+              "id": "version-0.0.1/intro",
               "isDocsHomePage": false,
               "title": "Tutorial Intro",
               "description": "Let's discover Docusaurus in less than 5 minutes.",
-              "source": "@site/docs/intro.md",
+              "source": "@site/versioned_docs/version-0.0.1/intro.md",
               "sourceDirName": ".",
               "slug": "/intro",
-              "permalink": "/docs/intro",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/intro.md",
-              "version": "current",
+              "permalink": "/docs/0.0.1/intro",
+              "version": "0.0.1",
               "sidebarPosition": 1,
               "frontMatter": {
                 "sidebar_position": 1
               },
-              "sidebar": "tutorialSidebar",
+              "sidebar": "version-0.0.1/tutorialSidebar",
               "next": {
                 "title": "Create a Page",
-                "permalink": "/docs/tutorial-basics/create-a-page"
+                "permalink": "/docs/0.0.1/tutorial-basics/create-a-page"
               }
             },
             {
               "unversionedId": "tutorial-basics/congratulations",
-              "id": "tutorial-basics/congratulations",
+              "id": "version-0.0.1/tutorial-basics/congratulations",
               "isDocsHomePage": false,
               "title": "Congratulations!",
               "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
-              "source": "@site/docs/tutorial-basics/congratulations.md",
+              "source": "@site/versioned_docs/version-0.0.1/tutorial-basics/congratulations.md",
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/congratulations",
-              "permalink": "/docs/tutorial-basics/congratulations",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-basics/congratulations.md",
-              "version": "current",
+              "permalink": "/docs/0.0.1/tutorial-basics/congratulations",
+              "version": "0.0.1",
               "sidebarPosition": 6,
               "frontMatter": {
                 "sidebar_position": 6
               },
-              "sidebar": "tutorialSidebar",
+              "sidebar": "version-0.0.1/tutorialSidebar",
               "previous": {
                 "title": "Deploy your site",
-                "permalink": "/docs/tutorial-basics/deploy-your-site"
+                "permalink": "/docs/0.0.1/tutorial-basics/deploy-your-site"
               },
               "next": {
                 "title": "Manage Docs Versions",
-                "permalink": "/docs/tutorial-extras/manage-docs-versions"
+                "permalink": "/docs/0.0.1/tutorial-extras/manage-docs-versions"
               }
             },
             {
               "unversionedId": "tutorial-basics/create-a-blog-post",
-              "id": "tutorial-basics/create-a-blog-post",
+              "id": "version-0.0.1/tutorial-basics/create-a-blog-post",
               "isDocsHomePage": false,
               "title": "Create a Blog Post",
               "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
-              "source": "@site/docs/tutorial-basics/create-a-blog-post.md",
+              "source": "@site/versioned_docs/version-0.0.1/tutorial-basics/create-a-blog-post.md",
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/create-a-blog-post",
-              "permalink": "/docs/tutorial-basics/create-a-blog-post",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-basics/create-a-blog-post.md",
-              "version": "current",
+              "permalink": "/docs/0.0.1/tutorial-basics/create-a-blog-post",
+              "version": "0.0.1",
               "sidebarPosition": 3,
               "frontMatter": {
                 "sidebar_position": 3
               },
-              "sidebar": "tutorialSidebar",
+              "sidebar": "version-0.0.1/tutorialSidebar",
               "previous": {
                 "title": "Create a Document",
-                "permalink": "/docs/tutorial-basics/create-a-document"
+                "permalink": "/docs/0.0.1/tutorial-basics/create-a-document"
               },
               "next": {
                 "title": "Markdown Features",
-                "permalink": "/docs/tutorial-basics/markdown-features"
+                "permalink": "/docs/0.0.1/tutorial-basics/markdown-features"
               }
             },
             {
               "unversionedId": "tutorial-basics/create-a-document",
-              "id": "tutorial-basics/create-a-document",
+              "id": "version-0.0.1/tutorial-basics/create-a-document",
               "isDocsHomePage": false,
               "title": "Create a Document",
               "description": "Documents are groups of pages connected through:",
-              "source": "@site/docs/tutorial-basics/create-a-document.md",
+              "source": "@site/versioned_docs/version-0.0.1/tutorial-basics/create-a-document.md",
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/create-a-document",
-              "permalink": "/docs/tutorial-basics/create-a-document",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-basics/create-a-document.md",
-              "version": "current",
+              "permalink": "/docs/0.0.1/tutorial-basics/create-a-document",
+              "version": "0.0.1",
               "sidebarPosition": 2,
               "frontMatter": {
                 "sidebar_position": 2
               },
-              "sidebar": "tutorialSidebar",
+              "sidebar": "version-0.0.1/tutorialSidebar",
               "previous": {
                 "title": "Create a Page",
-                "permalink": "/docs/tutorial-basics/create-a-page"
+                "permalink": "/docs/0.0.1/tutorial-basics/create-a-page"
               },
               "next": {
                 "title": "Create a Blog Post",
-                "permalink": "/docs/tutorial-basics/create-a-blog-post"
+                "permalink": "/docs/0.0.1/tutorial-basics/create-a-blog-post"
               }
             },
             {
               "unversionedId": "tutorial-basics/create-a-page",
-              "id": "tutorial-basics/create-a-page",
+              "id": "version-0.0.1/tutorial-basics/create-a-page",
               "isDocsHomePage": false,
               "title": "Create a Page",
               "description": "Add Markdown or React files to src/pages to create a standalone page:",
-              "source": "@site/docs/tutorial-basics/create-a-page.md",
+              "source": "@site/versioned_docs/version-0.0.1/tutorial-basics/create-a-page.md",
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/create-a-page",
-              "permalink": "/docs/tutorial-basics/create-a-page",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-basics/create-a-page.md",
-              "version": "current",
+              "permalink": "/docs/0.0.1/tutorial-basics/create-a-page",
+              "version": "0.0.1",
               "sidebarPosition": 1,
               "frontMatter": {
                 "sidebar_position": 1
               },
-              "sidebar": "tutorialSidebar",
+              "sidebar": "version-0.0.1/tutorialSidebar",
               "previous": {
                 "title": "Tutorial Intro",
-                "permalink": "/docs/intro"
+                "permalink": "/docs/0.0.1/intro"
               },
               "next": {
                 "title": "Create a Document",
-                "permalink": "/docs/tutorial-basics/create-a-document"
+                "permalink": "/docs/0.0.1/tutorial-basics/create-a-document"
               }
             },
             {
               "unversionedId": "tutorial-basics/deploy-your-site",
-              "id": "tutorial-basics/deploy-your-site",
+              "id": "version-0.0.1/tutorial-basics/deploy-your-site",
               "isDocsHomePage": false,
               "title": "Deploy your site",
               "description": "Docusaurus is a static-site-generator (also called Jamstack).",
-              "source": "@site/docs/tutorial-basics/deploy-your-site.md",
+              "source": "@site/versioned_docs/version-0.0.1/tutorial-basics/deploy-your-site.md",
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/deploy-your-site",
-              "permalink": "/docs/tutorial-basics/deploy-your-site",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-basics/deploy-your-site.md",
-              "version": "current",
+              "permalink": "/docs/0.0.1/tutorial-basics/deploy-your-site",
+              "version": "0.0.1",
               "sidebarPosition": 5,
               "frontMatter": {
                 "sidebar_position": 5
               },
-              "sidebar": "tutorialSidebar",
+              "sidebar": "version-0.0.1/tutorialSidebar",
               "previous": {
                 "title": "Markdown Features",
-                "permalink": "/docs/tutorial-basics/markdown-features"
+                "permalink": "/docs/0.0.1/tutorial-basics/markdown-features"
               },
               "next": {
                 "title": "Congratulations!",
-                "permalink": "/docs/tutorial-basics/congratulations"
+                "permalink": "/docs/0.0.1/tutorial-basics/congratulations"
               }
             },
             {
               "unversionedId": "tutorial-basics/markdown-features",
-              "id": "tutorial-basics/markdown-features",
+              "id": "version-0.0.1/tutorial-basics/markdown-features",
               "isDocsHomePage": false,
               "title": "Markdown Features",
               "description": "Docusaurus supports Markdown and a few additional features.",
-              "source": "@site/docs/tutorial-basics/markdown-features.mdx",
+              "source": "@site/versioned_docs/version-0.0.1/tutorial-basics/markdown-features.mdx",
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/markdown-features",
-              "permalink": "/docs/tutorial-basics/markdown-features",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-basics/markdown-features.mdx",
-              "version": "current",
+              "permalink": "/docs/0.0.1/tutorial-basics/markdown-features",
+              "version": "0.0.1",
               "sidebarPosition": 4,
               "frontMatter": {
                 "sidebar_position": 4
               },
-              "sidebar": "tutorialSidebar",
+              "sidebar": "version-0.0.1/tutorialSidebar",
               "previous": {
                 "title": "Create a Blog Post",
-                "permalink": "/docs/tutorial-basics/create-a-blog-post"
+                "permalink": "/docs/0.0.1/tutorial-basics/create-a-blog-post"
               },
               "next": {
                 "title": "Deploy your site",
-                "permalink": "/docs/tutorial-basics/deploy-your-site"
+                "permalink": "/docs/0.0.1/tutorial-basics/deploy-your-site"
               }
             },
             {
               "unversionedId": "tutorial-extras/manage-docs-versions",
-              "id": "tutorial-extras/manage-docs-versions",
+              "id": "version-0.0.1/tutorial-extras/manage-docs-versions",
               "isDocsHomePage": false,
               "title": "Manage Docs Versions",
               "description": "Docusaurus can manage multiple versions of your docs.",
-              "source": "@site/docs/tutorial-extras/manage-docs-versions.md",
+              "source": "@site/versioned_docs/version-0.0.1/tutorial-extras/manage-docs-versions.md",
               "sourceDirName": "tutorial-extras",
               "slug": "/tutorial-extras/manage-docs-versions",
-              "permalink": "/docs/tutorial-extras/manage-docs-versions",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-extras/manage-docs-versions.md",
-              "version": "current",
+              "permalink": "/docs/0.0.1/tutorial-extras/manage-docs-versions",
+              "version": "0.0.1",
               "sidebarPosition": 1,
               "frontMatter": {
                 "sidebar_position": 1
               },
-              "sidebar": "tutorialSidebar",
+              "sidebar": "version-0.0.1/tutorialSidebar",
               "previous": {
                 "title": "Congratulations!",
-                "permalink": "/docs/tutorial-basics/congratulations"
+                "permalink": "/docs/0.0.1/tutorial-basics/congratulations"
               },
               "next": {
                 "title": "Translate your site",
-                "permalink": "/docs/tutorial-extras/translate-your-site"
+                "permalink": "/docs/0.0.1/tutorial-extras/translate-your-site"
               }
             },
             {
               "unversionedId": "tutorial-extras/translate-your-site",
-              "id": "tutorial-extras/translate-your-site",
+              "id": "version-0.0.1/tutorial-extras/translate-your-site",
               "isDocsHomePage": false,
               "title": "Translate your site",
               "description": "Let's translate docs/intro.md to French.",
-              "source": "@site/docs/tutorial-extras/translate-your-site.md",
+              "source": "@site/versioned_docs/version-0.0.1/tutorial-extras/translate-your-site.md",
               "sourceDirName": "tutorial-extras",
               "slug": "/tutorial-extras/translate-your-site",
-              "permalink": "/docs/tutorial-extras/translate-your-site",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-extras/translate-your-site.md",
-              "version": "current",
+              "permalink": "/docs/0.0.1/tutorial-extras/translate-your-site",
+              "version": "0.0.1",
               "sidebarPosition": 2,
               "frontMatter": {
                 "sidebar_position": 2
               },
-              "sidebar": "tutorialSidebar",
+              "sidebar": "version-0.0.1/tutorialSidebar",
               "previous": {
                 "title": "Manage Docs Versions",
-                "permalink": "/docs/tutorial-extras/manage-docs-versions"
+                "permalink": "/docs/0.0.1/tutorial-extras/manage-docs-versions"
               }
             }
           ]
@@ -307,94 +781,480 @@
     "default": {
       "blogPosts": [
         {
-          "id": "welcome",
+          "id": "eslint",
           "metadata": {
-            "permalink": "/blog/welcome",
-            "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2019-05-30-welcome.md",
-            "source": "@site/blog/2019-05-30-welcome.md",
-            "title": "Welcome",
-            "description": "Blog features are powered by the blog plugin. Simply add files to the blog directory. It supports tags as well!",
-            "date": "2019-05-30T00:00:00.000Z",
-            "formattedDate": "May 30, 2019",
+            "permalink": "/blog/eslint",
+            "source": "@site/blog/2021-08-05-eslint.md",
+            "title": "ESLint",
+            "description": "ESLint",
+            "date": "2021-08-05T00:00:00.000Z",
+            "formattedDate": "August 5, 2021",
             "tags": [
               {
-                "label": "facebook",
-                "permalink": "/blog/tags/facebook"
+                "label": "JavaScript",
+                "permalink": "/blog/tags/java-script"
               },
               {
-                "label": "hello",
-                "permalink": "/blog/tags/hello"
-              },
-              {
-                "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
+                "label": "ESLint",
+                "permalink": "/blog/tags/es-lint"
               }
             ],
-            "readingTime": 0.175,
+            "readingTime": 0.88,
             "truncated": false,
             "nextItem": {
-              "title": "Hello",
-              "permalink": "/blog/hello-world"
+              "title": "Husky",
+              "permalink": "/blog/husky"
             }
           }
         },
         {
-          "id": "hello-world",
+          "id": "husky",
           "metadata": {
-            "permalink": "/blog/hello-world",
-            "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2019-05-29-hello-world.md",
-            "source": "@site/blog/2019-05-29-hello-world.md",
-            "title": "Hello",
-            "description": "Welcome to this blog. This blog is created with Docusaurus 2.",
-            "date": "2019-05-29T00:00:00.000Z",
-            "formattedDate": "May 29, 2019",
+            "permalink": "/blog/husky",
+            "source": "@site/blog/2021-08-05-husky.md",
+            "title": "Husky",
+            "description": "Husky",
+            "date": "2021-08-05T00:00:00.000Z",
+            "formattedDate": "August 5, 2021",
             "tags": [
               {
-                "label": "hello",
-                "permalink": "/blog/tags/hello"
-              },
-              {
-                "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
+                "label": "Husky",
+                "permalink": "/blog/tags/husky"
               }
             ],
-            "readingTime": 0.115,
-            "truncated": true,
+            "readingTime": 0.53,
+            "truncated": false,
             "prevItem": {
-              "title": "Welcome",
-              "permalink": "/blog/welcome"
+              "title": "ESLint",
+              "permalink": "/blog/eslint"
             },
             "nextItem": {
-              "title": "Hola",
-              "permalink": "/blog/hola"
+              "title": "Lint-Staged",
+              "permalink": "/blog/lintStaged"
             }
           }
         },
         {
-          "id": "hola",
+          "id": "lintStaged",
           "metadata": {
-            "permalink": "/blog/hola",
-            "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2019-05-28-hola.md",
-            "source": "@site/blog/2019-05-28-hola.md",
-            "title": "Hola",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
-            "date": "2019-05-28T00:00:00.000Z",
-            "formattedDate": "May 28, 2019",
+            "permalink": "/blog/lintStaged",
+            "source": "@site/blog/2021-08-05-lint-staged.md",
+            "title": "Lint-Staged",
+            "description": "Lint-Staged",
+            "date": "2021-08-05T00:00:00.000Z",
+            "formattedDate": "August 5, 2021",
             "tags": [
               {
-                "label": "hola",
-                "permalink": "/blog/tags/hola"
+                "label": "linter",
+                "permalink": "/blog/tags/linter"
               },
+              {
+                "label": "lint-staged",
+                "permalink": "/blog/tags/lint-staged"
+              }
+            ],
+            "readingTime": 0.315,
+            "truncated": false,
+            "prevItem": {
+              "title": "Husky",
+              "permalink": "/blog/husky"
+            },
+            "nextItem": {
+              "title": "Code Quality Tools",
+              "permalink": "/blog/codeQualityTools"
+            }
+          }
+        },
+        {
+          "id": "codeQualityTools",
+          "metadata": {
+            "permalink": "/blog/codeQualityTools",
+            "source": "@site/blog/2021-08-04-code-quality-tools.md",
+            "title": "Code Quality Tools",
+            "description": "程式碼質量檢測工具",
+            "date": "2021-08-04T00:00:00.000Z",
+            "formattedDate": "August 4, 2021",
+            "tags": [
+              {
+                "label": "js",
+                "permalink": "/blog/tags/js"
+              },
+              {
+                "label": "code quality",
+                "permalink": "/blog/tags/code-quality"
+              },
+              {
+                "label": "tools",
+                "permalink": "/blog/tags/tools"
+              }
+            ],
+            "readingTime": 0.11,
+            "truncated": false,
+            "prevItem": {
+              "title": "Lint-Staged",
+              "permalink": "/blog/lintStaged"
+            },
+            "nextItem": {
+              "title": "Native Base",
+              "permalink": "/blog/nativeBase"
+            }
+          }
+        },
+        {
+          "id": "nativeBase",
+          "metadata": {
+            "permalink": "/blog/nativeBase",
+            "source": "@site/blog/2021-08-04-native-base.md",
+            "title": "Native Base",
+            "description": "應用UI程式庫 - NativeBase",
+            "date": "2021-08-04T00:00:00.000Z",
+            "formattedDate": "August 4, 2021",
+            "tags": [
+              {
+                "label": "react",
+                "permalink": "/blog/tags/react"
+              },
+              {
+                "label": "reactNative",
+                "permalink": "/blog/tags/react-native"
+              },
+              {
+                "label": "nativeBase",
+                "permalink": "/blog/tags/native-base"
+              }
+            ],
+            "readingTime": 0.67,
+            "truncated": false,
+            "prevItem": {
+              "title": "Code Quality Tools",
+              "permalink": "/blog/codeQualityTools"
+            },
+            "nextItem": {
+              "title": "React Native",
+              "permalink": "/blog/reactNative"
+            }
+          }
+        },
+        {
+          "id": "reactNative",
+          "metadata": {
+            "permalink": "/blog/reactNative",
+            "source": "@site/blog/2021-08-04-react-native.md",
+            "title": "React Native",
+            "description": "依賴及設定",
+            "date": "2021-08-04T00:00:00.000Z",
+            "formattedDate": "August 4, 2021",
+            "tags": [
+              {
+                "label": "react",
+                "permalink": "/blog/tags/react"
+              },
+              {
+                "label": "reactNative",
+                "permalink": "/blog/tags/react-native"
+              }
+            ],
+            "readingTime": 0.465,
+            "truncated": false,
+            "prevItem": {
+              "title": "Native Base",
+              "permalink": "/blog/nativeBase"
+            },
+            "nextItem": {
+              "title": "Docusaurus",
+              "permalink": "/blog/Docusaurus"
+            }
+          }
+        },
+        {
+          "id": "Docusaurus",
+          "metadata": {
+            "permalink": "/blog/Docusaurus",
+            "source": "@site/blog/2021-08-03-docusaurus.md",
+            "title": "Docusaurus",
+            "description": "建立專案",
+            "date": "2021-08-03T00:00:00.000Z",
+            "formattedDate": "August 3, 2021",
+            "tags": [
+              {
+                "label": "js",
+                "permalink": "/blog/tags/js"
+              },
+              {
+                "label": "Docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              },
+              {
+                "label": "JavaScript",
+                "permalink": "/blog/tags/java-script"
+              },
+              {
+                "label": "i18n",
+                "permalink": "/blog/tags/i-18-n"
+              }
+            ],
+            "readingTime": 2.785,
+            "truncated": false,
+            "prevItem": {
+              "title": "React Native",
+              "permalink": "/blog/reactNative"
+            },
+            "nextItem": {
+              "title": "Java & Bean",
+              "permalink": "/blog/java-bean"
+            }
+          }
+        },
+        {
+          "id": "java-bean",
+          "metadata": {
+            "permalink": "/blog/java-bean",
+            "source": "@site/blog/2021-08-03-java-bean.md",
+            "title": "Java & Bean",
+            "description": "什么是JavaBean、bean? 什么是POJO、PO、DTO、VO、BO ? 什么是EJB、EntityBean？",
+            "date": "2021-08-03T00:00:00.000Z",
+            "formattedDate": "August 3, 2021",
+            "tags": [
+              {
+                "label": "Java",
+                "permalink": "/blog/tags/java"
+              },
+              {
+                "label": "Bean",
+                "permalink": "/blog/tags/bean"
+              }
+            ],
+            "readingTime": 0.02,
+            "truncated": false,
+            "prevItem": {
+              "title": "Docusaurus",
+              "permalink": "/blog/Docusaurus"
+            },
+            "nextItem": {
+              "title": "Online Deployment",
+              "permalink": "/blog/online-deployment"
+            }
+          }
+        },
+        {
+          "id": "online-deployment",
+          "metadata": {
+            "permalink": "/blog/online-deployment",
+            "source": "@site/blog/2021-08-03-online-deployment.md",
+            "title": "Online Deployment",
+            "description": "開發及部署環境",
+            "date": "2021-08-03T00:00:00.000Z",
+            "formattedDate": "August 3, 2021",
+            "tags": [
+              {
+                "label": "Deployment",
+                "permalink": "/blog/tags/deployment"
+              },
+              {
+                "label": "Online Deployment",
+                "permalink": "/blog/tags/online-deployment"
+              },
+              {
+                "label": "Free",
+                "permalink": "/blog/tags/free"
+              }
+            ],
+            "readingTime": 0.295,
+            "truncated": false,
+            "prevItem": {
+              "title": "Java & Bean",
+              "permalink": "/blog/java-bean"
+            },
+            "nextItem": {
+              "title": "Sails Js",
+              "permalink": "/blog/sailsJs"
+            }
+          }
+        },
+        {
+          "id": "sailsJs",
+          "metadata": {
+            "permalink": "/blog/sailsJs",
+            "source": "@site/blog/2021-08-03-sails.md",
+            "title": "Sails Js",
+            "description": "經npm安裝sails",
+            "date": "2021-08-03T00:00:00.000Z",
+            "formattedDate": "August 3, 2021",
+            "tags": [
+              {
+                "label": "js",
+                "permalink": "/blog/tags/js"
+              },
+              {
+                "label": "sailsJs",
+                "permalink": "/blog/tags/sails-js"
+              },
+              {
+                "label": "SocketIO",
+                "permalink": "/blog/tags/socket-io"
+              }
+            ],
+            "readingTime": 0.15,
+            "truncated": false,
+            "prevItem": {
+              "title": "Online Deployment",
+              "permalink": "/blog/online-deployment"
+            },
+            "nextItem": {
+              "title": "NodeJs related",
+              "permalink": "/blog/NodeJs"
+            }
+          }
+        },
+        {
+          "id": "NodeJs",
+          "metadata": {
+            "permalink": "/blog/NodeJs",
+            "source": "@site/blog/2021-08-02-nodejs.md",
+            "title": "NodeJs related",
+            "description": "15 个常见的 Node.js 面试问题及答案",
+            "date": "2021-08-02T00:00:00.000Z",
+            "formattedDate": "August 2, 2021",
+            "tags": [
+              {
+                "label": "NodeJs",
+                "permalink": "/blog/tags/node-js"
+              },
+              {
+                "label": "Streaming",
+                "permalink": "/blog/tags/streaming"
+              },
+              {
+                "label": "sailsJs",
+                "permalink": "/blog/tags/sails-js"
+              }
+            ],
+            "readingTime": 0.06,
+            "truncated": false,
+            "prevItem": {
+              "title": "Sails Js",
+              "permalink": "/blog/sailsJs"
+            },
+            "nextItem": {
+              "title": "Basic theory",
+              "permalink": "/blog/diff"
+            }
+          }
+        },
+        {
+          "id": "diff",
+          "metadata": {
+            "permalink": "/blog/diff",
+            "source": "@site/blog/2021-08-02-diff.md",
+            "title": "Basic theory",
+            "description": "序",
+            "date": "2021-08-02T00:00:00.000Z",
+            "formattedDate": "August 2, 2021",
+            "tags": [
+              {
+                "label": "js",
+                "permalink": "/blog/tags/js"
+              },
+              {
+                "label": "import",
+                "permalink": "/blog/tags/import"
+              },
+              {
+                "label": "require",
+                "permalink": "/blog/tags/require"
+              },
+              {
+                "label": "basic",
+                "permalink": "/blog/tags/basic"
+              },
+              {
+                "label": "theory",
+                "permalink": "/blog/tags/theory"
+              },
+              {
+                "label": "parm",
+                "permalink": "/blog/tags/parm"
+              },
+              {
+                "label": "var",
+                "permalink": "/blog/tags/var"
+              },
+              {
+                "label": "function",
+                "permalink": "/blog/tags/function"
+              },
+              {
+                "label": "method",
+                "permalink": "/blog/tags/method"
+              }
+            ],
+            "readingTime": 2.445,
+            "truncated": false,
+            "prevItem": {
+              "title": "NodeJs related",
+              "permalink": "/blog/NodeJs"
+            },
+            "nextItem": {
+              "title": "Start Building Blazor application",
+              "permalink": "/blog/start-blazor"
+            }
+          }
+        },
+        {
+          "id": "start-blazor",
+          "metadata": {
+            "permalink": "/blog/start-blazor",
+            "source": "@site/blog/2021-08-02-start-blazor.md",
+            "title": "Start Building Blazor application",
+            "description": "開始建立Blazor Application的學習筆記",
+            "date": "2021-08-02T00:00:00.000Z",
+            "formattedDate": "August 2, 2021",
+            "tags": [
               {
                 "label": "docusaurus",
                 "permalink": "/blog/tags/docusaurus"
+              },
+              {
+                "label": "blazor",
+                "permalink": "/blog/tags/blazor"
               }
             ],
-            "readingTime": 0.12,
+            "readingTime": 1.29,
             "truncated": false,
             "prevItem": {
-              "title": "Hello",
-              "permalink": "/blog/hello-world"
+              "title": "Basic theory",
+              "permalink": "/blog/diff"
+            },
+            "nextItem": {
+              "title": "How to get GitHub Account Image",
+              "permalink": "/blog/GitHub"
+            }
+          }
+        },
+        {
+          "id": "GitHub",
+          "metadata": {
+            "permalink": "/blog/GitHub",
+            "source": "@site/blog/2021-08-02-GitHub.md",
+            "title": "How to get GitHub Account Image",
+            "description": "You can append .png to the URL for the User's profile to get redirected to their avatar. You can add the query param size to specify a size smaller than the default of 460px wide (i.e. it won't allow larger than 460).",
+            "date": "2021-08-02T00:00:00.000Z",
+            "formattedDate": "August 2, 2021",
+            "tags": [
+              {
+                "label": "GitHub",
+                "permalink": "/blog/tags/git-hub"
+              },
+              {
+                "label": "avatars",
+                "permalink": "/blog/tags/avatars"
+              }
+            ],
+            "readingTime": 0.25,
+            "truncated": false,
+            "prevItem": {
+              "title": "Start Building Blazor application",
+              "permalink": "/blog/start-blazor"
             }
           }
         }
@@ -405,51 +1265,285 @@
             "permalink": "/blog",
             "page": 1,
             "postsPerPage": 10,
-            "totalPages": 1,
-            "totalCount": 3,
+            "totalPages": 2,
+            "totalCount": 14,
             "previousPage": null,
+            "nextPage": "/blog/page/2",
+            "blogDescription": "Blog",
+            "blogTitle": "Blog"
+          },
+          "items": [
+            "eslint",
+            "husky",
+            "lintStaged",
+            "codeQualityTools",
+            "nativeBase",
+            "reactNative",
+            "Docusaurus",
+            "java-bean",
+            "online-deployment",
+            "sailsJs"
+          ]
+        },
+        {
+          "metadata": {
+            "permalink": "/blog/page/2",
+            "page": 2,
+            "postsPerPage": 10,
+            "totalPages": 2,
+            "totalCount": 14,
+            "previousPage": "/blog",
             "nextPage": null,
             "blogDescription": "Blog",
             "blogTitle": "Blog"
           },
           "items": [
-            "welcome",
-            "hello-world",
-            "hola"
+            "NodeJs",
+            "diff",
+            "start-blazor",
+            "GitHub"
           ]
         }
       ],
       "blogTags": {
-        "facebook": {
-          "name": "facebook",
+        "java-script": {
+          "name": "javascript",
           "items": [
-            "welcome"
+            "eslint",
+            "Docusaurus"
           ],
-          "permalink": "/blog/tags/facebook"
+          "permalink": "/blog/tags/java-script"
         },
-        "hello": {
-          "name": "hello",
+        "es-lint": {
+          "name": "eslint",
           "items": [
-            "welcome",
-            "hello-world"
+            "eslint"
           ],
-          "permalink": "/blog/tags/hello"
+          "permalink": "/blog/tags/es-lint"
+        },
+        "husky": {
+          "name": "husky",
+          "items": [
+            "husky"
+          ],
+          "permalink": "/blog/tags/husky"
+        },
+        "linter": {
+          "name": "linter",
+          "items": [
+            "lintStaged"
+          ],
+          "permalink": "/blog/tags/linter"
+        },
+        "lint-staged": {
+          "name": "lint-staged",
+          "items": [
+            "lintStaged"
+          ],
+          "permalink": "/blog/tags/lint-staged"
+        },
+        "js": {
+          "name": "js",
+          "items": [
+            "codeQualityTools",
+            "Docusaurus",
+            "sailsJs",
+            "diff"
+          ],
+          "permalink": "/blog/tags/js"
+        },
+        "code-quality": {
+          "name": "code quality",
+          "items": [
+            "codeQualityTools"
+          ],
+          "permalink": "/blog/tags/code-quality"
+        },
+        "tools": {
+          "name": "tools",
+          "items": [
+            "codeQualityTools"
+          ],
+          "permalink": "/blog/tags/tools"
+        },
+        "react": {
+          "name": "react",
+          "items": [
+            "nativeBase",
+            "reactNative"
+          ],
+          "permalink": "/blog/tags/react"
+        },
+        "react-native": {
+          "name": "reactnative",
+          "items": [
+            "nativeBase",
+            "reactNative"
+          ],
+          "permalink": "/blog/tags/react-native"
+        },
+        "native-base": {
+          "name": "nativebase",
+          "items": [
+            "nativeBase"
+          ],
+          "permalink": "/blog/tags/native-base"
         },
         "docusaurus": {
           "name": "docusaurus",
           "items": [
-            "welcome",
-            "hello-world",
-            "hola"
+            "Docusaurus",
+            "start-blazor"
           ],
           "permalink": "/blog/tags/docusaurus"
         },
-        "hola": {
-          "name": "hola",
+        "i-18-n": {
+          "name": "i18n",
           "items": [
-            "hola"
+            "Docusaurus"
           ],
-          "permalink": "/blog/tags/hola"
+          "permalink": "/blog/tags/i-18-n"
+        },
+        "java": {
+          "name": "java",
+          "items": [
+            "java-bean"
+          ],
+          "permalink": "/blog/tags/java"
+        },
+        "bean": {
+          "name": "bean",
+          "items": [
+            "java-bean"
+          ],
+          "permalink": "/blog/tags/bean"
+        },
+        "deployment": {
+          "name": "deployment",
+          "items": [
+            "online-deployment"
+          ],
+          "permalink": "/blog/tags/deployment"
+        },
+        "online-deployment": {
+          "name": "online deployment",
+          "items": [
+            "online-deployment"
+          ],
+          "permalink": "/blog/tags/online-deployment"
+        },
+        "free": {
+          "name": "free",
+          "items": [
+            "online-deployment"
+          ],
+          "permalink": "/blog/tags/free"
+        },
+        "sails-js": {
+          "name": "sailsjs",
+          "items": [
+            "sailsJs",
+            "NodeJs"
+          ],
+          "permalink": "/blog/tags/sails-js"
+        },
+        "socket-io": {
+          "name": "socketio",
+          "items": [
+            "sailsJs"
+          ],
+          "permalink": "/blog/tags/socket-io"
+        },
+        "node-js": {
+          "name": "nodejs",
+          "items": [
+            "NodeJs"
+          ],
+          "permalink": "/blog/tags/node-js"
+        },
+        "streaming": {
+          "name": "streaming",
+          "items": [
+            "NodeJs"
+          ],
+          "permalink": "/blog/tags/streaming"
+        },
+        "import": {
+          "name": "import",
+          "items": [
+            "diff"
+          ],
+          "permalink": "/blog/tags/import"
+        },
+        "require": {
+          "name": "require",
+          "items": [
+            "diff"
+          ],
+          "permalink": "/blog/tags/require"
+        },
+        "basic": {
+          "name": "basic",
+          "items": [
+            "diff"
+          ],
+          "permalink": "/blog/tags/basic"
+        },
+        "theory": {
+          "name": "theory",
+          "items": [
+            "diff"
+          ],
+          "permalink": "/blog/tags/theory"
+        },
+        "parm": {
+          "name": "parm",
+          "items": [
+            "diff"
+          ],
+          "permalink": "/blog/tags/parm"
+        },
+        "var": {
+          "name": "var",
+          "items": [
+            "diff"
+          ],
+          "permalink": "/blog/tags/var"
+        },
+        "function": {
+          "name": "function",
+          "items": [
+            "diff"
+          ],
+          "permalink": "/blog/tags/function"
+        },
+        "method": {
+          "name": "method",
+          "items": [
+            "diff"
+          ],
+          "permalink": "/blog/tags/method"
+        },
+        "blazor": {
+          "name": "blazor",
+          "items": [
+            "start-blazor"
+          ],
+          "permalink": "/blog/tags/blazor"
+        },
+        "git-hub": {
+          "name": "github",
+          "items": [
+            "GitHub"
+          ],
+          "permalink": "/blog/tags/git-hub"
+        },
+        "avatars": {
+          "name": "avatars",
+          "items": [
+            "GitHub"
+          ],
+          "permalink": "/blog/tags/avatars"
         }
       },
       "blogTagsListPath": "/blog/tags"

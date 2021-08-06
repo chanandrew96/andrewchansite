@@ -1,0 +1,28 @@
+{
+  "permalink": "/blog/start-blazor",
+  "source": "@site/blog/2021-08-02-start-blazor.md",
+  "title": "Start Building Blazor application",
+  "description": "開始建立Blazor Application的學習筆記",
+  "date": "2021-08-02T00:00:00.000Z",
+  "formattedDate": "August 2, 2021",
+  "tags": [
+    {
+      "label": "docusaurus",
+      "permalink": "/blog/tags/docusaurus"
+    },
+    {
+      "label": "blazor",
+      "permalink": "/blog/tags/blazor"
+    }
+  ],
+  "readingTime": 1.29,
+  "truncated": false,
+  "prevItem": {
+    "title": "Basic theory",
+    "permalink": "/blog/diff"
+  },
+  "nextItem": {
+    "title": "How to get GitHub Account Image",
+    "permalink": "/blog/GitHub"
+  }
+}

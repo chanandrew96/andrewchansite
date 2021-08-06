@@ -1,0 +1,32 @@
+{
+  "permalink": "/blog/online-deployment",
+  "source": "@site/blog/2021-08-03-online-deployment.md",
+  "title": "Online Deployment",
+  "description": "開發及部署環境",
+  "date": "2021-08-03T00:00:00.000Z",
+  "formattedDate": "August 3, 2021",
+  "tags": [
+    {
+      "label": "Deployment",
+      "permalink": "/blog/tags/deployment"
+    },
+    {
+      "label": "Online Deployment",
+      "permalink": "/blog/tags/online-deployment"
+    },
+    {
+      "label": "Free",
+      "permalink": "/blog/tags/free"
+    }
+  ],
+  "readingTime": 0.295,
+  "truncated": false,
+  "prevItem": {
+    "title": "Java & Bean",
+    "permalink": "/blog/java-bean"
+  },
+  "nextItem": {
+    "title": "Sails Js",
+    "permalink": "/blog/sailsJs"
+  }
+}

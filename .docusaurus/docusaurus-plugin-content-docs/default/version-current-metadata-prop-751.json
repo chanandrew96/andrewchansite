@@ -2,48 +2,28 @@
   "pluginId": "default",
   "version": "current",
   "label": "Next",
-  "banner": "none",
-  "isLast": true,
+  "banner": "unreleased",
+  "isLast": false,
   "docsSidebars": {
     "tutorialSidebar": [
       {
         "type": "link",
-        "label": "Tutorial Intro",
-        "href": "/docs/intro"
+        "label": "Documents",
+        "href": "/docs/next/docsMenu"
       },
       {
         "type": "category",
-        "label": "Tutorial - Basics",
+        "label": "about-me",
         "items": [
           {
             "type": "link",
-            "label": "Create a Page",
-            "href": "/docs/tutorial-basics/create-a-page"
+            "label": "My Projects",
+            "href": "/docs/next/about-me/projects"
           },
           {
             "type": "link",
-            "label": "Create a Document",
-            "href": "/docs/tutorial-basics/create-a-document"
-          },
-          {
-            "type": "link",
-            "label": "Create a Blog Post",
-            "href": "/docs/tutorial-basics/create-a-blog-post"
-          },
-          {
-            "type": "link",
-            "label": "Markdown Features",
-            "href": "/docs/tutorial-basics/markdown-features"
-          },
-          {
-            "type": "link",
-            "label": "Deploy your site",
-            "href": "/docs/tutorial-basics/deploy-your-site"
-          },
-          {
-            "type": "link",
-            "label": "Congratulations!",
-            "href": "/docs/tutorial-basics/congratulations"
+            "label": "Who am I?",
+            "href": "/docs/next/about-me/who"
           }
         ],
         "collapsed": true,
@@ -51,17 +31,43 @@
       },
       {
         "type": "category",
-        "label": "Tutorial - Extras",
+        "label": "learning-notes",
         "items": [
           {
-            "type": "link",
-            "label": "Manage Docs Versions",
-            "href": "/docs/tutorial-extras/manage-docs-versions"
+            "type": "category",
+            "label": "blazor",
+            "items": [
+              {
+                "type": "link",
+                "label": "開始建立Blazor Application",
+                "href": "/docs/next/learning-notes/blazor/blazorIntro"
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
           },
           {
-            "type": "link",
-            "label": "Translate your site",
-            "href": "/docs/tutorial-extras/translate-your-site"
+            "type": "category",
+            "label": "docusaurus",
+            "items": [
+              {
+                "type": "link",
+                "label": "開始建立Docusaurus",
+                "href": "/docs/next/learning-notes/docusaurus/docusaurusIntro"
+              },
+              {
+                "type": "link",
+                "label": "設定docusaurus.config.js",
+                "href": "/docs/next/learning-notes/docusaurus/docusaurusConfig"
+              },
+              {
+                "type": "link",
+                "label": "設定Docusaurus i18n",
+                "href": "/docs/next/learning-notes/docusaurus/docusaurusi18n"
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
           }
         ],
         "collapsed": true,

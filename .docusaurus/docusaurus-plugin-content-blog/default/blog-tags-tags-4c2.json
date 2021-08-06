@@ -1,30 +1,233 @@
 {
-  "facebook": {
+  "java-script": {
     "allTagsPath": "/blog/tags",
-    "slug": "facebook",
-    "name": "facebook",
-    "count": 1,
-    "permalink": "/blog/tags/facebook"
-  },
-  "hello": {
-    "allTagsPath": "/blog/tags",
-    "slug": "hello",
-    "name": "hello",
+    "slug": "java-script",
+    "name": "javascript",
     "count": 2,
-    "permalink": "/blog/tags/hello"
+    "permalink": "/blog/tags/java-script"
+  },
+  "es-lint": {
+    "allTagsPath": "/blog/tags",
+    "slug": "es-lint",
+    "name": "eslint",
+    "count": 1,
+    "permalink": "/blog/tags/es-lint"
+  },
+  "husky": {
+    "allTagsPath": "/blog/tags",
+    "slug": "husky",
+    "name": "husky",
+    "count": 1,
+    "permalink": "/blog/tags/husky"
+  },
+  "linter": {
+    "allTagsPath": "/blog/tags",
+    "slug": "linter",
+    "name": "linter",
+    "count": 1,
+    "permalink": "/blog/tags/linter"
+  },
+  "lint-staged": {
+    "allTagsPath": "/blog/tags",
+    "slug": "lint-staged",
+    "name": "lint-staged",
+    "count": 1,
+    "permalink": "/blog/tags/lint-staged"
+  },
+  "js": {
+    "allTagsPath": "/blog/tags",
+    "slug": "js",
+    "name": "js",
+    "count": 4,
+    "permalink": "/blog/tags/js"
+  },
+  "code-quality": {
+    "allTagsPath": "/blog/tags",
+    "slug": "code-quality",
+    "name": "code quality",
+    "count": 1,
+    "permalink": "/blog/tags/code-quality"
+  },
+  "tools": {
+    "allTagsPath": "/blog/tags",
+    "slug": "tools",
+    "name": "tools",
+    "count": 1,
+    "permalink": "/blog/tags/tools"
+  },
+  "react": {
+    "allTagsPath": "/blog/tags",
+    "slug": "react",
+    "name": "react",
+    "count": 2,
+    "permalink": "/blog/tags/react"
+  },
+  "react-native": {
+    "allTagsPath": "/blog/tags",
+    "slug": "react-native",
+    "name": "reactnative",
+    "count": 2,
+    "permalink": "/blog/tags/react-native"
+  },
+  "native-base": {
+    "allTagsPath": "/blog/tags",
+    "slug": "native-base",
+    "name": "nativebase",
+    "count": 1,
+    "permalink": "/blog/tags/native-base"
   },
   "docusaurus": {
     "allTagsPath": "/blog/tags",
     "slug": "docusaurus",
     "name": "docusaurus",
-    "count": 3,
+    "count": 2,
     "permalink": "/blog/tags/docusaurus"
   },
-  "hola": {
+  "i-18-n": {
     "allTagsPath": "/blog/tags",
-    "slug": "hola",
-    "name": "hola",
+    "slug": "i-18-n",
+    "name": "i18n",
     "count": 1,
-    "permalink": "/blog/tags/hola"
+    "permalink": "/blog/tags/i-18-n"
+  },
+  "java": {
+    "allTagsPath": "/blog/tags",
+    "slug": "java",
+    "name": "java",
+    "count": 1,
+    "permalink": "/blog/tags/java"
+  },
+  "bean": {
+    "allTagsPath": "/blog/tags",
+    "slug": "bean",
+    "name": "bean",
+    "count": 1,
+    "permalink": "/blog/tags/bean"
+  },
+  "deployment": {
+    "allTagsPath": "/blog/tags",
+    "slug": "deployment",
+    "name": "deployment",
+    "count": 1,
+    "permalink": "/blog/tags/deployment"
+  },
+  "online-deployment": {
+    "allTagsPath": "/blog/tags",
+    "slug": "online-deployment",
+    "name": "online deployment",
+    "count": 1,
+    "permalink": "/blog/tags/online-deployment"
+  },
+  "free": {
+    "allTagsPath": "/blog/tags",
+    "slug": "free",
+    "name": "free",
+    "count": 1,
+    "permalink": "/blog/tags/free"
+  },
+  "sails-js": {
+    "allTagsPath": "/blog/tags",
+    "slug": "sails-js",
+    "name": "sailsjs",
+    "count": 2,
+    "permalink": "/blog/tags/sails-js"
+  },
+  "socket-io": {
+    "allTagsPath": "/blog/tags",
+    "slug": "socket-io",
+    "name": "socketio",
+    "count": 1,
+    "permalink": "/blog/tags/socket-io"
+  },
+  "node-js": {
+    "allTagsPath": "/blog/tags",
+    "slug": "node-js",
+    "name": "nodejs",
+    "count": 1,
+    "permalink": "/blog/tags/node-js"
+  },
+  "streaming": {
+    "allTagsPath": "/blog/tags",
+    "slug": "streaming",
+    "name": "streaming",
+    "count": 1,
+    "permalink": "/blog/tags/streaming"
+  },
+  "import": {
+    "allTagsPath": "/blog/tags",
+    "slug": "import",
+    "name": "import",
+    "count": 1,
+    "permalink": "/blog/tags/import"
+  },
+  "require": {
+    "allTagsPath": "/blog/tags",
+    "slug": "require",
+    "name": "require",
+    "count": 1,
+    "permalink": "/blog/tags/require"
+  },
+  "basic": {
+    "allTagsPath": "/blog/tags",
+    "slug": "basic",
+    "name": "basic",
+    "count": 1,
+    "permalink": "/blog/tags/basic"
+  },
+  "theory": {
+    "allTagsPath": "/blog/tags",
+    "slug": "theory",
+    "name": "theory",
+    "count": 1,
+    "permalink": "/blog/tags/theory"
+  },
+  "parm": {
+    "allTagsPath": "/blog/tags",
+    "slug": "parm",
+    "name": "parm",
+    "count": 1,
+    "permalink": "/blog/tags/parm"
+  },
+  "var": {
+    "allTagsPath": "/blog/tags",
+    "slug": "var",
+    "name": "var",
+    "count": 1,
+    "permalink": "/blog/tags/var"
+  },
+  "function": {
+    "allTagsPath": "/blog/tags",
+    "slug": "function",
+    "name": "function",
+    "count": 1,
+    "permalink": "/blog/tags/function"
+  },
+  "method": {
+    "allTagsPath": "/blog/tags",
+    "slug": "method",
+    "name": "method",
+    "count": 1,
+    "permalink": "/blog/tags/method"
+  },
+  "blazor": {
+    "allTagsPath": "/blog/tags",
+    "slug": "blazor",
+    "name": "blazor",
+    "count": 1,
+    "permalink": "/blog/tags/blazor"
+  },
+  "git-hub": {
+    "allTagsPath": "/blog/tags",
+    "slug": "git-hub",
+    "name": "github",
+    "count": 1,
+    "permalink": "/blog/tags/git-hub"
+  },
+  "avatars": {
+    "allTagsPath": "/blog/tags",
+    "slug": "avatars",
+    "name": "avatars",
+    "count": 1,
+    "permalink": "/blog/tags/avatars"
   }
 }

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "about-me/who",
+  "id": "about-me/who",
+  "isDocsHomePage": false,
+  "title": "Who am I?",
+  "description": "So who am I?",
+  "source": "@site/docs/about-me/who.md",
+  "sourceDirName": "about-me",
+  "slug": "/about-me/who",
+  "permalink": "/docs/next/about-me/who",
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "who",
+    "title": "Who am I?"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "My Projects",
+    "permalink": "/docs/next/about-me/projects"
+  },
+  "next": {
+    "title": "開始建立Blazor Application",
+    "permalink": "/docs/next/learning-notes/blazor/blazorIntro"
+  }
+}

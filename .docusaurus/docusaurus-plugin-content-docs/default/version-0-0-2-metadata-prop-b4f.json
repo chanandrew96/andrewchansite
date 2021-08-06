@@ -1,0 +1,73 @@
+{
+  "pluginId": "default",
+  "version": "0.0.2",
+  "label": "0.0.2",
+  "banner": "none",
+  "isLast": true,
+  "docsSidebars": {
+    "version-0.0.2/tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Documents",
+        "href": "/docs/docsMenu"
+      },
+      {
+        "type": "category",
+        "label": "about-me",
+        "items": [
+          {
+            "type": "link",
+            "label": "Who am I?",
+            "href": "/docs/about-me/who"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "learning-notes",
+        "items": [
+          {
+            "type": "category",
+            "label": "blazor",
+            "items": [
+              {
+                "type": "link",
+                "label": "開始建立Blazor Application",
+                "href": "/docs/learning-notes/blazor/blazorIntro"
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          },
+          {
+            "type": "category",
+            "label": "docusaurus",
+            "items": [
+              {
+                "type": "link",
+                "label": "開始建立Docusaurus",
+                "href": "/docs/learning-notes/docusaurus/docusaurusIntro"
+              },
+              {
+                "type": "link",
+                "label": "設定docusaurus.config.js",
+                "href": "/docs/learning-notes/docusaurus/docusaurusConfig"
+              },
+              {
+                "type": "link",
+                "label": "設定Docusaurus i18n",
+                "href": "/docs/learning-notes/docusaurus/docusaurusi18n"
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      }
+    ]
+  }
+}

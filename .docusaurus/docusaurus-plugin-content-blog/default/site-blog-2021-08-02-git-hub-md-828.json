@@ -1,0 +1,24 @@
+{
+  "permalink": "/blog/GitHub",
+  "source": "@site/blog/2021-08-02-GitHub.md",
+  "title": "How to get GitHub Account Image",
+  "description": "You can append .png to the URL for the User's profile to get redirected to their avatar. You can add the query param size to specify a size smaller than the default of 460px wide (i.e. it won't allow larger than 460).",
+  "date": "2021-08-02T00:00:00.000Z",
+  "formattedDate": "August 2, 2021",
+  "tags": [
+    {
+      "label": "GitHub",
+      "permalink": "/blog/tags/git-hub"
+    },
+    {
+      "label": "avatars",
+      "permalink": "/blog/tags/avatars"
+    }
+  ],
+  "readingTime": 0.25,
+  "truncated": false,
+  "prevItem": {
+    "title": "Start Building Blazor application",
+    "permalink": "/blog/start-blazor"
+  }
+}

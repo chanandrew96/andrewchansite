@@ -1,0 +1,28 @@
+{
+  "permalink": "/blog/lintStaged",
+  "source": "@site/blog/2021-08-05-lint-staged.md",
+  "title": "Lint-Staged",
+  "description": "Lint-Staged",
+  "date": "2021-08-05T00:00:00.000Z",
+  "formattedDate": "August 5, 2021",
+  "tags": [
+    {
+      "label": "linter",
+      "permalink": "/blog/tags/linter"
+    },
+    {
+      "label": "lint-staged",
+      "permalink": "/blog/tags/lint-staged"
+    }
+  ],
+  "readingTime": 0.315,
+  "truncated": false,
+  "prevItem": {
+    "title": "Husky",
+    "permalink": "/blog/husky"
+  },
+  "nextItem": {
+    "title": "Code Quality Tools",
+    "permalink": "/blog/codeQualityTools"
+  }
+}
